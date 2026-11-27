@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "id": "exemplo-ciencias-4ano-v1",
+  "title": "Ciências: água, seres vivos e Sistema Solar",
+  "subject": "Ciências",
+  "grade": "4º Ano do Ensino Fundamental I",
+  "description": "Exemplo do 4º ano: conceitos de Ciências da Natureza com uma questão discursiva para correção assistida.",
+  "sources": {
+    "providedMaterial": [
+      "Nenhum material de escola: exemplo elaborado para demonstração"
+    ],
+    "onlyProvidedMaterial": true,
+    "external": [],
+    "notes": "Exemplo ilustrativo, elaborado a partir de habilidades gerais do currículo nacional (BNCC) para mostrar como um simulado deste ano se estrutura. Não substitui o material da sua escola: confira o conteúdo e o gabarito antes de usar."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Matéria e energia",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "prompt": "Quando a água do mar esquenta e vira vapor, ocorre:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Condensação"
+            },
+            {
+              "id": "b",
+              "text": "Evaporação"
+            },
+            {
+              "id": "c",
+              "text": "Solidificação"
+            },
+            {
+              "id": "d",
+              "text": "Fusão"
+            }
+          ],
+          "answer": "b",
+          "explanation": "A passagem da água líquida para vapor é a evaporação.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "prompt": "A água em forma de gelo está em qual estado físico?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Líquido"
+            },
+            {
+              "id": "b",
+              "text": "Gasoso"
+            },
+            {
+              "id": "c",
+              "text": "Evaporado"
+            },
+            {
+              "id": "d",
+              "text": "Sólido"
+            }
+          ],
+          "answer": "d",
+          "explanation": "O gelo é a água no estado sólido.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "prompt": "As plantas usam a luz do sol para:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Fazer barulho"
+            },
+            {
+              "id": "b",
+              "text": "Mudar de lugar"
+            },
+            {
+              "id": "c",
+              "text": "Produzir o próprio alimento"
+            },
+            {
+              "id": "d",
+              "text": "Virar animais"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Na fotossíntese, a planta usa luz, água e gás carbônico para produzir seu alimento.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "prompt": "Em uma cadeia alimentar, quem é o produtor?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A planta, que faz o próprio alimento"
+            },
+            {
+              "id": "b",
+              "text": "O animal que come outros animais"
+            },
+            {
+              "id": "c",
+              "text": "O animal que come plantas"
+            },
+            {
+              "id": "d",
+              "text": "O fungo que decompõe restos"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Os produtores, como as plantas, fabricam seu próprio alimento.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "prompt": "Qual hábito ajuda a evitar doenças causadas por microrganismos?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Dividir copos e talheres"
+            },
+            {
+              "id": "b",
+              "text": "Lavar as mãos com água e sabão"
+            },
+            {
+              "id": "c",
+              "text": "Comer sem lavar as frutas"
+            },
+            {
+              "id": "d",
+              "text": "Brincar na terra sem se limpar"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Lavar as mãos remove sujeira e microrganismos que podem causar doenças.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Terra e Universo",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q06",
+          "prompt": "Qual é a estrela do nosso Sistema Solar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A Lua"
+            },
+            {
+              "id": "b",
+              "text": "Marte"
+            },
+            {
+              "id": "c",
+              "text": "Júpiter"
+            },
+            {
+              "id": "d",
+              "text": "O Sol"
+            }
+          ],
+          "answer": "d",
+          "explanation": "O Sol é a estrela ao redor da qual os planetas giram.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "prompt": "Qual planeta é o mais próximo do Sol?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Mercúrio"
+            },
+            {
+              "id": "b",
+              "text": "Vênus"
+            },
+            {
+              "id": "c",
+              "text": "Marte"
+            },
+            {
+              "id": "d",
+              "text": "Saturno"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Mercúrio é o primeiro planeta a partir do Sol.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "prompt": "Cerca de quanto tempo a Lua leva para passar por todas as suas fases?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cerca de 1 dia"
+            },
+            {
+              "id": "b",
+              "text": "Cerca de 1 ano"
+            },
+            {
+              "id": "c",
+              "text": "Cerca de 1 mês"
+            },
+            {
+              "id": "d",
+              "text": "Cerca de 1 semana"
+            }
+          ],
+          "answer": "c",
+          "explanation": "O ciclo das fases da Lua dura cerca de 29 dias, ou seja, cerca de 1 mês.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "prompt": "Por que o solo é importante para a vida?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nele só existem pedras"
+            },
+            {
+              "id": "b",
+              "text": "Nele crescem plantas e vivem animais"
+            },
+            {
+              "id": "c",
+              "text": "Ele nunca recebe água"
+            },
+            {
+              "id": "d",
+              "text": "Ele impede as plantas de crescer"
+            }
+          ],
+          "answer": "b",
+          "explanation": "No solo as plantas fixam as raízes e muitos animais encontram abrigo e alimento.",
+          "points": 1
+        },
+        {
+          "type": "open",
+          "id": "q10",
+          "title": "Ciclo da água",
+          "prompt": "Explique, com suas palavras, o que acontece no ciclo da água. Cite pelo menos três etapas.",
+          "expectedAnswer": "A água dos rios, lagos e mares evapora com o calor do sol e sobe como vapor. No alto, o vapor esfria e se condensa, formando as nuvens. Depois, a água cai como chuva (precipitação) e volta aos rios, ao solo e aos mares, recomeçando o ciclo.",
+          "keyConcepts": [
+            "evaporação",
+            "condensação",
+            "precipitação (chuva)",
+            "retorno da água aos rios e ao mar"
+          ],
+          "criteria": [
+            "Cita pelo menos três etapas do ciclo.",
+            "Descreve a ordem das etapas.",
+            "Explica o papel do calor do sol.",
+            "Usa as próprias palavras, em frases completas."
+          ],
+          "maxPoints": 3
+        }
+      ]
+    }
+  ]
+}

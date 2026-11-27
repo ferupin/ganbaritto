@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "id": "exemplo-lingua-portuguesa-3ano-v1",
+  "title": "Língua Portuguesa: palavras, frases e textos",
+  "subject": "Língua Portuguesa",
+  "grade": "3º Ano do Ensino Fundamental I",
+  "description": "Exemplo do 3º ano: gramática básica, interpretação de textos curtos e uma produção escrita assistida.",
+  "sources": {
+    "providedMaterial": [
+      "Nenhum material de escola: exemplo elaborado para demonstração"
+    ],
+    "onlyProvidedMaterial": true,
+    "external": [],
+    "notes": "Exemplo ilustrativo, elaborado a partir de habilidades gerais do currículo nacional (BNCC) para mostrar como um simulado deste ano se estrutura. Não substitui o material da sua escola: confira o conteúdo e o gabarito antes de usar."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Palavras",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "prompt": "Qual palavra aparece primeiro em ordem alfabética?",
+          "options": [
+            {
+              "id": "a",
+              "text": "bola"
+            },
+            {
+              "id": "b",
+              "text": "casa"
+            },
+            {
+              "id": "c",
+              "text": "abelha"
+            },
+            {
+              "id": "d",
+              "text": "dado"
+            }
+          ],
+          "answer": "c",
+          "explanation": "A ordem alfabética começa pela letra A, depois B, C e D.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "prompt": "Quantas sílabas tem a palavra “borboleta”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Quatro"
+            },
+            {
+              "id": "b",
+              "text": "Três"
+            },
+            {
+              "id": "c",
+              "text": "Cinco"
+            },
+            {
+              "id": "d",
+              "text": "Duas"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Bor-bo-le-ta: quatro sílabas.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "prompt": "Qual palavra tem sentido parecido com “feliz”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "triste"
+            },
+            {
+              "id": "b",
+              "text": "alegre"
+            },
+            {
+              "id": "c",
+              "text": "cansado"
+            },
+            {
+              "id": "d",
+              "text": "bravo"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Palavras de sentido parecido são sinônimos: feliz e alegre.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "prompt": "Qual é o contrário de “alto”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "grande"
+            },
+            {
+              "id": "b",
+              "text": "forte"
+            },
+            {
+              "id": "c",
+              "text": "novo"
+            },
+            {
+              "id": "d",
+              "text": "baixo"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Palavras de sentido oposto são antônimos: alto e baixo.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "prompt": "Qual grupo tem apenas substantivos (nomes)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "gato, mesa, escola"
+            },
+            {
+              "id": "b",
+              "text": "correr, pular, brincar"
+            },
+            {
+              "id": "c",
+              "text": "bonito, grande, feliz"
+            },
+            {
+              "id": "d",
+              "text": "ontem, hoje, amanhã"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Substantivos dão nome a seres e coisas: gato, mesa, escola.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q06",
+          "prompt": "Qual é o plural de “pão”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "pãos"
+            },
+            {
+              "id": "b",
+              "text": "pãezes"
+            },
+            {
+              "id": "c",
+              "text": "pães"
+            },
+            {
+              "id": "d",
+              "text": "pões"
+            }
+          ],
+          "answer": "c",
+          "explanation": "O plural de pão é pães.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Frases e textos",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "prompt": "Que sinal de pontuação usamos no fim de uma pergunta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ponto final"
+            },
+            {
+              "id": "b",
+              "text": "Ponto de interrogação"
+            },
+            {
+              "id": "c",
+              "text": "Ponto de exclamação"
+            },
+            {
+              "id": "d",
+              "text": "Vírgula"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Perguntas terminam com ponto de interrogação (?).",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "context": "Ana convidou os amigos para o seu aniversário. A festa será no sábado, às 15 horas, no salão do prédio.",
+          "prompt": "Qual é o assunto principal do texto?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Uma viagem de férias"
+            },
+            {
+              "id": "b",
+              "text": "O horário de uma aula"
+            },
+            {
+              "id": "c",
+              "text": "A compra de um presente"
+            },
+            {
+              "id": "d",
+              "text": "O convite para uma festa de aniversário"
+            }
+          ],
+          "answer": "d",
+          "explanation": "O texto convida os amigos e informa dia, hora e local da festa.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "context": "Mãe, fui à casa do Pedro. Volto às 17 horas. Beijos, Lucas.",
+          "prompt": "Quem escreveu este bilhete?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Lucas"
+            },
+            {
+              "id": "b",
+              "text": "Pedro"
+            },
+            {
+              "id": "c",
+              "text": "A mãe"
+            },
+            {
+              "id": "d",
+              "text": "Um vizinho"
+            }
+          ],
+          "answer": "a",
+          "explanation": "A assinatura no fim do bilhete mostra quem escreveu: Lucas.",
+          "points": 1
+        },
+        {
+          "type": "open",
+          "id": "q10",
+          "title": "Produção de frases",
+          "prompt": "Escreva duas frases sobre a sua brincadeira ou o seu brinquedo favorito. Comece cada frase com letra maiúscula e termine com ponto final.",
+          "expectedAnswer": "Exemplo: “Minha brincadeira favorita é pega-pega. Eu brinco com meus amigos no recreio.”",
+          "keyConcepts": [
+            "frases completas com sentido",
+            "letra maiúscula no início",
+            "ponto final no fim"
+          ],
+          "criteria": [
+            "Escreve duas frases que fazem sentido.",
+            "Usa letra maiúscula no começo de cada frase.",
+            "Usa ponto final no fim de cada frase.",
+            "Escreve as palavras de forma legível e compreensível."
+          ],
+          "maxPoints": 3
+        }
+      ]
+    }
+  ]
+}

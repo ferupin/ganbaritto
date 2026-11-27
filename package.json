@@ -1,0 +1,63 @@
+{
+  "name": "ganbaritto",
+  "version": "0.5.3",
+  "private": true,
+  "description": "Plataforma de simulados escolares a partir de bancos de questões em JSON. Sem backend, sem banco de dados.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "e2e": "playwright test",
+    "check": "tsc --noEmit && tsc -p e2e/tsconfig.json --noEmit && vitest run",
+    "typecheck:e2e": "tsc -p e2e/tsconfig.json --noEmit",
+    "licenses": "node scripts/licenses.mjs --md"
+  },
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "@tailwindcss/postcss": "^4.3.5",
+    "katex": "^0.19.1",
+    "lucide-react": "^1.79.0",
+    "next": "^16.4.6",
+    "next-themes": "^0.4.6",
+    "postcss": "^8.5.33",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.5",
+    "zod": "^4.6.7",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/katex": "^0.16.8",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "axe-core": "^4.14.1",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferupin/ganbaritto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ferupin/ganbaritto/issues"
+  },
+  "homepage": "https://github.com/ferupin/ganbaritto#readme",
+  "keywords": [
+    "simulado",
+    "educacao",
+    "quiz",
+    "nextjs",
+    "offline",
+    "localstorage",
+    "pt-br"
+  ]
+}

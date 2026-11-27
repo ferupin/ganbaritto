@@ -1,0 +1,1017 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-historia-patrimonio-brasil-5ano-v1",
+  "title": "Simulado de História — Patrimônio histórico e cultural do Brasil",
+  "subject": "História",
+  "grade": "5º Ano do Ensino Fundamental I",
+  "institution": "Escola Exemplo",
+  "description": "35 questões (30 objetivas e 5 discursivas) em cinco partes temáticas. Convertido do protótipo HTML original.",
+  "sources": {
+    "providedMaterial": [],
+    "external": [],
+    "notes": "O protótipo original não trazia registro de fontes. Preencher antes de usar oficialmente."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Formação histórica do patrimônio brasileiro",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "title": "A colonização portuguesa",
+          "prompt": "A partir de 1500, os colonizadores portugueses acumularam bens particulares e fundaram comunidades ligadas ao catolicismo. Qual alternativa representa uma marca desse processo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Capelas e igrejas que deram origem a espaços de convivência e, em alguns casos, cidades."
+            },
+            {
+              "id": "b",
+              "text": "Somente fábricas construídas no século XX."
+            },
+            {
+              "id": "c",
+              "text": "A ausência completa de construções religiosas."
+            },
+            {
+              "id": "d",
+              "text": "Apenas aldeias sem contato com a religião."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Capelas e igrejas tiveram papel importante na organização de muitas comunidades coloniais. Em torno delas, surgiram espaços de convivência e, em alguns casos, núcleos urbanos."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "title": "Povos que já viviam no território",
+          "prompt": "Analise as afirmativas sobre a população do território brasileiro:",
+          "statements": [
+            "Povos indígenas já viviam aqui muito antes de 1500.",
+            "Africanos escravizados foram trazidos à força para o Brasil durante o período colonial.",
+            "A história do Brasil começou somente com a chegada dos portugueses.",
+            "Diferentes povos participaram da formação da sociedade brasileira."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas I e II estão corretas."
+            },
+            {
+              "id": "b",
+              "text": "Apenas II e III estão corretas."
+            },
+            {
+              "id": "c",
+              "text": "Apenas I, II e IV estão corretas."
+            },
+            {
+              "id": "d",
+              "text": "Todas estão corretas."
+            }
+          ],
+          "answer": "c",
+          "explanation": "I, II e IV estão corretas. A história do território e de seus povos é muito anterior à chegada dos portugueses em 1500."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "title": "Independência e identidade nacional",
+          "prompt": "Por que a Independência do Brasil, em 1822, foi importante para o desenvolvimento da ideia de patrimônio nacional?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Porque todos os patrimônios foram criados naquele mesmo ano."
+            },
+            {
+              "id": "b",
+              "text": "Porque, depois da independência, cresceu gradualmente o interesse em construir uma identidade nacional."
+            },
+            {
+              "id": "c",
+              "text": "Porque antes de 1822 não existiam construções ou tradições no território."
+            },
+            {
+              "id": "d",
+              "text": "Porque a independência proibiu a preservação de bens antigos."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Após a independência, cresceu gradualmente o interesse em reconhecer elementos que representassem a história e a identidade do país."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "title": "Monumento à Independência",
+          "context": "Observe as informações sobre o monumento e responda.",
+          "prompt": "O monumento foi inaugurado em 1922 porque:",
+          "table": {
+            "headers": [
+              "Dado",
+              "Informação"
+            ],
+            "rows": [
+              [
+                "Localização",
+                "Às margens do Rio Ipiranga, na cidade de São Paulo."
+              ],
+              [
+                "Inauguração",
+                "1922."
+              ],
+              [
+                "Homenagem",
+                "Centenário da Independência do Brasil."
+              ]
+            ]
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": "comemorava 100 anos da chegada dos portugueses."
+            },
+            {
+              "id": "b",
+              "text": "celebrava a criação do Museu Nacional."
+            },
+            {
+              "id": "c",
+              "text": "homenageava os 100 anos da Independência, proclamada em 1822."
+            },
+            {
+              "id": "d",
+              "text": "marcava a Proclamação da República em 1889."
+            }
+          ],
+          "answer": "c",
+          "explanation": "O centenário correspondeu aos 100 anos da Independência: 1822 a 1922."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "title": "Coleções imperiais",
+          "prompt": "D. Pedro I e D. Pedro II demonstraram interesse por antiguidades de civilizações como Egito, Grécia e Roma. Esse interesse estava relacionado:",
+          "options": [
+            {
+              "id": "a",
+              "text": "à moda e ao gosto de colecionar antiguidades entre as elites europeias da época."
+            },
+            {
+              "id": "b",
+              "text": "à obrigação de todas as famílias brasileiras possuírem múmias."
+            },
+            {
+              "id": "c",
+              "text": "à proibição de estudar povos antigos."
+            },
+            {
+              "id": "d",
+              "text": "apenas à compra de objetos produzidos no Brasil."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Colecionar antiguidades era um hábito valorizado por setores das elites europeias. Os imperadores brasileiros também reuniram objetos de civilizações antigas."
+        },
+        {
+          "type": "open",
+          "id": "q06",
+          "title": "Museu Nacional e memória",
+          "prompt": "Explique o que aconteceu com parte da coleção egípcia que estava no Museu Nacional e por que a perda dessas peças foi importante.",
+          "expectedAnswer": "Parte da coleção egípcia do Museu Nacional foi perdida (destruída) no incêndio de setembro de 2018, no Rio de Janeiro. A perda é importante porque eram peças raras e muito antigas, valiosas para a pesquisa, a ciência, a cultura e a memória, e não podem ser substituídas.",
+          "keyConcepts": [
+            "incêndio de 2018 no Museu Nacional",
+            "perda de peças raras",
+            "importância para pesquisa, cultura e memória"
+          ],
+          "criteria": [
+            "Informa que as peças foram perdidas ou destruídas no incêndio de 2018.",
+            "Explica por que a perda é importante (pesquisa, cultura ou memória).",
+            "Usa as próprias palavras, em frases completas."
+          ],
+          "maxPoints": 3
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Museus, preservação e patrimônio arqueológico",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "title": "O incêndio de 2018",
+          "prompt": "Em setembro de 2018, um incêndio atingiu o Museu Nacional, no Rio de Janeiro. Qual foi uma consequência desse acontecimento?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Todas as coleções foram transferidas intactas para Brasília."
+            },
+            {
+              "id": "b",
+              "text": "Muitas peças raras e importantes para a pesquisa e a memória foram perdidas."
+            },
+            {
+              "id": "c",
+              "text": "O museu passou a funcionar no Egito."
+            },
+            {
+              "id": "d",
+              "text": "O incêndio criou a coleção imperial."
+            }
+          ],
+          "answer": "b",
+          "explanation": "O incêndio destruiu grande parte do acervo do Museu Nacional, causando perdas importantes para a ciência, a cultura e a memória."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "title": "A viagem ao Egito em 1871",
+          "prompt": "Uma fotografia de 1871 mostra D. Pedro II, D. Teresa Cristina Maria e integrantes da comitiva junto às pirâmides do Egito. A imagem faz parte de uma coleção doada à Biblioteca Nacional. O que ela ajuda a conhecer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A viagem da família imperial e o interesse de D. Pedro II pela história e cultura de outros povos."
+            },
+            {
+              "id": "b",
+              "text": "A construção das pirâmides no século XIX."
+            },
+            {
+              "id": "c",
+              "text": "A fundação do IPHAN em 1937."
+            },
+            {
+              "id": "d",
+              "text": "A chegada dos primeiros portugueses ao Brasil."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Fotografias históricas são fontes que ajudam a conhecer pessoas, viagens, costumes e interesses de outras épocas."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "title": "Relíquias egípcias e devolução",
+          "prompt": "Sobre objetos antigos retirados do Egito e levados para outros países, analise:",
+          "statements": [
+            "Muitos objetos antigos foram saqueados ou revendidos ao longo da história.",
+            "Atualmente, existem regras internacionais que proíbem o comércio de antiguidades retiradas ilegalmente.",
+            "O Egito já solicitou a devolução de peças que estão em outros países.",
+            "A discussão envolve história, origem dos objetos e patrimônio cultural."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas I e II estão corretas."
+            },
+            {
+              "id": "b",
+              "text": "Apenas II e III estão corretas."
+            },
+            {
+              "id": "c",
+              "text": "Apenas I, III e IV estão corretas."
+            },
+            {
+              "id": "d",
+              "text": "Todas estão corretas."
+            }
+          ],
+          "answer": "d",
+          "explanation": "As quatro afirmações resumem aspectos do debate atual sobre a origem, o comércio e a devolução de antiguidades."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q10",
+          "title": "Sítios arqueológicos",
+          "prompt": "O que é um sítio arqueológico?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Um parque criado apenas para esportes."
+            },
+            {
+              "id": "b",
+              "text": "Um local onde existem vestígios de atividades humanas antigas, importantes para estudar o passado."
+            },
+            {
+              "id": "c",
+              "text": "Uma loja que vende objetos antigos."
+            },
+            {
+              "id": "d",
+              "text": "Qualquer construção moderna."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Sítios arqueológicos guardam vestígios da presença e das atividades humanas, como objetos, marcas de moradia e restos de alimentos."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q11",
+          "title": "Pesquisa arqueológica e proteção",
+          "prompt": "Analise as afirmativas:",
+          "statements": [
+            "Vestígios arqueológicos podem ajudar a descobrir como as pessoas se alimentavam e moravam.",
+            "Esses vestígios podem ser frágeis e precisam de cuidados.",
+            "Qualquer pessoa pode escavar livremente um sítio arqueológico.",
+            "Pesquisas arqueológicas devem ser feitas por profissionais especializados e com autorização exigida."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas I e II estão corretas."
+            },
+            {
+              "id": "b",
+              "text": "Apenas I, II e IV estão corretas."
+            },
+            {
+              "id": "c",
+              "text": "Apenas III e IV estão corretas."
+            },
+            {
+              "id": "d",
+              "text": "Todas estão corretas."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Vestígios são frágeis e sua retirada sem técnica pode destruir informações. Escavações e pesquisas dependem de profissionais e das autorizações legais."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q12",
+          "title": "Lei de proteção arqueológica",
+          "prompt": "Segundo o conteúdo estudado, qual lei brasileira protege os monumentos arqueológicos e pré-históricos?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Lei nº 3.924, de 1961."
+            },
+            {
+              "id": "b",
+              "text": "Lei de criação da Embratur, de 1966."
+            },
+            {
+              "id": "c",
+              "text": "Lei de Independência, de 1822."
+            },
+            {
+              "id": "d",
+              "text": "Lei de criação do Museu Nacional, de 2018."
+            }
+          ],
+          "answer": "a",
+          "explanation": "A Lei nº 3.924/1961 trata da proteção dos monumentos arqueológicos e pré-históricos. O acesso e a pesquisa em sítios seguem regras específicas."
+        },
+        {
+          "type": "open",
+          "id": "q13",
+          "title": "Por que não escavar por conta própria?",
+          "prompt": "Explique por que apenas profissionais especializados e autorizados devem pesquisar sítios arqueológicos.",
+          "expectedAnswer": "Porque os vestígios arqueológicos são frágeis e, se forem retirados sem técnica, as informações sobre o passado podem ser destruídas para sempre. Por isso a pesquisa deve ser feita por profissionais especializados e com autorização, como determinam as regras de proteção (Lei nº 3.924/1961).",
+          "keyConcepts": [
+            "vestígios são frágeis",
+            "retirada sem técnica destrói informações",
+            "profissionais especializados e autorização"
+          ],
+          "criteria": [
+            "Explica que os vestígios são frágeis ou que se perdem informações se forem mal manuseados.",
+            "Relaciona o cuidado à necessidade de profissionais e de autorização.",
+            "Usa as próprias palavras, em frases completas."
+          ],
+          "maxPoints": 3
+        }
+      ]
+    },
+    {
+      "id": "parte-3",
+      "title": "Órgãos de preservação e turismo",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q14",
+          "title": "Criação do SPHAN",
+          "prompt": "Em 1937, durante a Era Vargas, foi criado o SPHAN. Qual era sua finalidade?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Organizar competições esportivas nacionais."
+            },
+            {
+              "id": "b",
+              "text": "Proteger e valorizar o patrimônio histórico e artístico nacional."
+            },
+            {
+              "id": "c",
+              "text": "Fiscalizar somente o comércio de alimentos."
+            },
+            {
+              "id": "d",
+              "text": "Construir todas as cidades brasileiras."
+            }
+          ],
+          "answer": "b",
+          "explanation": "O SPHAN foi criado em 1937 para atuar na proteção do patrimônio histórico e artístico nacional."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q15",
+          "title": "O foco inicial do SPHAN",
+          "prompt": "Leia as afirmações:",
+          "statements": [
+            "O foco inicial do SPHAN estava principalmente no patrimônio material.",
+            "Construções e obras de arte do período colonial receberam destaque.",
+            "Desde sua criação, o SPHAN valorizava igualmente todas as práticas imateriais.",
+            "O reconhecimento do patrimônio brasileiro foi se ampliando ao longo do tempo."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas I e II estão corretas."
+            },
+            {
+              "id": "b",
+              "text": "Apenas II e III estão corretas."
+            },
+            {
+              "id": "c",
+              "text": "Apenas I, II e IV estão corretas."
+            },
+            {
+              "id": "d",
+              "text": "Todas estão corretas."
+            }
+          ],
+          "answer": "c",
+          "explanation": "O foco inicial era principalmente material, com destaque para construções e obras de arte. A valorização de outras expressões culturais foi ampliada posteriormente."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q16",
+          "title": "Ouro Preto",
+          "prompt": "Por que Ouro Preto, em Minas Gerais, foi um dos primeiros bens reconhecidos como patrimônio nacional?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Por sua importância histórica e por seu conjunto de construções ligado ao passado brasileiro."
+            },
+            {
+              "id": "b",
+              "text": "Por ser uma cidade fundada em 1987."
+            },
+            {
+              "id": "c",
+              "text": "Por possuir o maior aeroporto do país."
+            },
+            {
+              "id": "d",
+              "text": "Por ter sido o local da viagem de D. Pedro II ao Egito."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ouro Preto preserva construções e marcas importantes da história do Brasil, especialmente do período colonial."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q17",
+          "title": "IPHAN e tombamento",
+          "prompt": "O IPHAN é o atual Instituto do Patrimônio Histórico e Artístico Nacional. No contexto estudado, tombar um bem significa:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Colocá-lo à venda para qualquer pessoa."
+            },
+            {
+              "id": "b",
+              "text": "Registrar oficialmente sua importância e protegê-lo contra destruição ou alterações prejudiciais."
+            },
+            {
+              "id": "c",
+              "text": "Demoli-lo para construir algo novo."
+            },
+            {
+              "id": "d",
+              "text": "Impedir que as pessoas conheçam sua história."
+            }
+          ],
+          "answer": "b",
+          "explanation": "O tombamento é uma forma oficial de proteção. Ele estabelece cuidados para preservar bens de valor histórico, artístico ou cultural."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q18",
+          "title": "Embratur",
+          "prompt": "A Embratur foi criada em 1966. Qual era sua finalidade?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Incentivar e promover o turismo no Brasil."
+            },
+            {
+              "id": "b",
+              "text": "Pesquisar somente sítios arqueológicos."
+            },
+            {
+              "id": "c",
+              "text": "Administrar o Museu Nacional."
+            },
+            {
+              "id": "d",
+              "text": "Organizar a Independência do Brasil."
+            }
+          ],
+          "answer": "a",
+          "explanation": "A Embratur foi criada para incentivar e promover o turismo brasileiro."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q19",
+          "title": "Cidades históricas e turismo",
+          "context": "Observe os dados apresentados:",
+          "prompt": "O que esses exemplos mostram?",
+          "table": {
+            "headers": [
+              "Cidade",
+              "Estado",
+              "Ano de tombamento citado no conteúdo"
+            ],
+            "rows": [
+              [
+                "Paraty",
+                "Rio de Janeiro",
+                "1966"
+              ],
+              [
+                "Cachoeira",
+                "Bahia",
+                "1971"
+              ]
+            ]
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": "Que cidades históricas podem ser protegidas e também receber visitantes interessados em sua história."
+            },
+            {
+              "id": "b",
+              "text": "Que somente cidades do Sudeste podem ser patrimônio."
+            },
+            {
+              "id": "c",
+              "text": "Que o tombamento impede qualquer visitação turística."
+            },
+            {
+              "id": "d",
+              "text": "Que Cachoeira foi fundada em 1971."
+            }
+          ],
+          "answer": "a",
+          "explanation": "O tombamento protege características históricas. A visitação pode valorizar a cidade e movimentar a economia, desde que haja cuidado com o patrimônio."
+        },
+        {
+          "type": "open",
+          "id": "q20",
+          "title": "Turismo responsável",
+          "prompt": "Cite duas atitudes que visitantes e moradores devem ter para proteger uma cidade histórica.",
+          "expectedAnswer": "Exemplos de atitudes: não pichar nem danificar construções; não jogar lixo nas ruas e praças; respeitar as regras de visitação; não retirar pedaços ou objetos dos locais históricos; valorizar e cuidar da história da cidade. Basta citar duas atitudes coerentes.",
+          "keyConcepts": [
+            "respeito e cuidado com os bens históricos",
+            "atitudes concretas de preservação"
+          ],
+          "criteria": [
+            "Cita duas atitudes coerentes com a proteção de uma cidade histórica.",
+            "As atitudes são diferentes entre si e realistas.",
+            "Usa as próprias palavras, em frases completas."
+          ],
+          "maxPoints": 3
+        }
+      ]
+    },
+    {
+      "id": "parte-4",
+      "title": "Patrimônio imaterial, afro-brasileiro e indígena",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q21",
+          "title": "Constituição de 1988",
+          "prompt": "A Constituição Federal de 1988 ampliou o reconhecimento do patrimônio cultural brasileiro. O patrimônio imaterial inclui:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas prédios e monumentos de pedra."
+            },
+            {
+              "id": "b",
+              "text": "Práticas, hábitos alimentares, danças, celebrações e conhecimentos tradicionais."
+            },
+            {
+              "id": "c",
+              "text": "Somente objetos guardados em cofres."
+            },
+            {
+              "id": "d",
+              "text": "Apenas estradas e pontes."
+            }
+          ],
+          "answer": "b",
+          "explanation": "O patrimônio imaterial inclui práticas e conhecimentos que fazem parte da vida e da identidade das comunidades."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q22",
+          "title": "Viola de cocho",
+          "prompt": "O modo de fazer a viola de cocho, registrado como patrimônio em 2005, está ligado principalmente:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Aos saberes tradicionais de povos da região Centro-Oeste."
+            },
+            {
+              "id": "b",
+              "text": "À construção de navios no litoral paulista."
+            },
+            {
+              "id": "c",
+              "text": "Às antiguidades da Grécia e de Roma."
+            },
+            {
+              "id": "d",
+              "text": "Às festas medievais portuguesas."
+            }
+          ],
+          "answer": "a",
+          "explanation": "O modo de fazer a viola de cocho é um saber tradicional ligado à cultura de comunidades do Centro-Oeste."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q23",
+          "title": "Frevo",
+          "prompt": "O frevo é uma manifestação cultural pernambucana que mistura:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Somente pintura e escultura."
+            },
+            {
+              "id": "b",
+              "text": "Dança, música e poesia."
+            },
+            {
+              "id": "c",
+              "text": "Apenas culinária e agricultura."
+            },
+            {
+              "id": "d",
+              "text": "Arquitetura e escavação arqueológica."
+            }
+          ],
+          "answer": "b",
+          "explanation": "O frevo reúne música, dança e poesia e foi reconhecido pela UNESCO como patrimônio imaterial da humanidade em 2012."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q24",
+          "title": "Cais do Valongo",
+          "context": "Leia a linha do tempo:",
+          "prompt": "Por que as ruínas do Cais do Valongo devem ser preservadas?",
+          "table": {
+            "headers": [
+              "Ano",
+              "Acontecimento"
+            ],
+            "rows": [
+              [
+                "1811",
+                "Inauguração do cais."
+              ],
+              [
+                "1843 e 1911",
+                "Aterramentos em diferentes momentos."
+              ],
+              [
+                "2017",
+                "Reconhecimento como Patrimônio Mundial pela UNESCO."
+              ],
+              [
+                "2023",
+                "Ações de revitalização, painéis educativos e eventos culturais citados no conteúdo."
+              ]
+            ]
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": "Porque foram construídas para receber a família imperial no Egito."
+            },
+            {
+              "id": "b",
+              "text": "Porque ajudam a lembrar a história do tráfico e da chegada forçada de pessoas africanas escravizadas ao Brasil."
+            },
+            {
+              "id": "c",
+              "text": "Porque são um exemplo de arquitetura italiana do século XIX."
+            },
+            {
+              "id": "d",
+              "text": "Porque não possuem relação com a história brasileira."
+            }
+          ],
+          "answer": "b",
+          "explanation": "O Cais do Valongo foi um dos maiores portos de entrada de africanos escravizados no Brasil. Mesmo restando ruínas, seu valor histórico é fundamental para a memória."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q25",
+          "title": "Ampliação do conceito de patrimônio",
+          "prompt": "Analise as afirmações sobre a ampliação do conceito de patrimônio:",
+          "statements": [
+            "No início, a preservação oficial valorizava principalmente grandes construções e referências portuguesas.",
+            "Culturas indígenas e afrodescendentes foram pouco reconhecidas nesse primeiro momento.",
+            "A partir das décadas seguintes, movimentos sociais e debates internacionais contribuíram para ampliar o conceito de patrimônio.",
+            "Um bem só tem valor histórico quando possui uma construção grandiosa."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas I e II estão corretas."
+            },
+            {
+              "id": "b",
+              "text": "Apenas II e IV estão corretas."
+            },
+            {
+              "id": "c",
+              "text": "Apenas I, II e III estão corretas."
+            },
+            {
+              "id": "d",
+              "text": "Todas estão corretas."
+            }
+          ],
+          "answer": "c",
+          "explanation": "O conceito foi ampliado para reconhecer também a importância histórica e cultural de grupos e comunidades, mesmo quando não existem grandes edifícios."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q26",
+          "title": "Quilombo dos Palmares",
+          "prompt": "O Quilombo dos Palmares foi importante porque:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Foi um espaço de resistência à escravidão por mais de cem anos, reunindo pessoas de diferentes origens."
+            },
+            {
+              "id": "b",
+              "text": "Foi uma coleção de antiguidades egípcias."
+            },
+            {
+              "id": "c",
+              "text": "Foi criado pela Embratur para receber turistas."
+            },
+            {
+              "id": "d",
+              "text": "Foi um porto construído em 1811 no Rio de Janeiro."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Palmares foi um importante território de resistência à escravidão, com participação de africanos escravizados que fugiam, seus descendentes e outros grupos."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q27",
+          "title": "Zumbi e Serra da Barriga",
+          "prompt": "Qual alternativa apresenta informações corretas sobre Zumbi dos Palmares e a Serra da Barriga?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Zumbi morreu em 1695 e foi reconhecido herói nacional em 1997; a Serra da Barriga tornou-se patrimônio nacional em 1986."
+            },
+            {
+              "id": "b",
+              "text": "Zumbi foi imperador do Brasil em 1822; a Serra da Barriga fica no Rio de Janeiro."
+            },
+            {
+              "id": "c",
+              "text": "Zumbi criou o SPHAN em 1937; a Serra da Barriga foi tombada em 1971."
+            },
+            {
+              "id": "d",
+              "text": "Zumbi liderou a viagem ao Egito em 1871."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Zumbi é uma referência da resistência negra. A Serra da Barriga, em Alagoas, foi reconhecida como patrimônio nacional em 1986 e abriga o Parque Memorial Quilombo dos Palmares."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q28",
+          "title": "Cachoeira da Onça ou de Lauaretê",
+          "prompt": "A Cachoeira da Onça, também chamada Cachoeira de Lauaretê, é importante para 14 etnias indígenas porque:",
+          "options": [
+            {
+              "id": "a",
+              "text": "É apenas um ponto turístico sem significado para as comunidades."
+            },
+            {
+              "id": "b",
+              "text": "Está ligada a mitos de origem, ao cotidiano, à subsistência e à identidade desses povos."
+            },
+            {
+              "id": "c",
+              "text": "Foi construída durante a colonização portuguesa."
+            },
+            {
+              "id": "d",
+              "text": "É o local onde ficava o Museu Nacional."
+            }
+          ],
+          "answer": "b",
+          "explanation": "A cachoeira é um lugar sagrado e significativo para diferentes povos indígenas, relacionado a narrativas, práticas cotidianas e formas de viver."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q29",
+          "title": "Curt Nimuendajú",
+          "prompt": "Curt Nimuendajú foi um pesquisador que viveu por muitos anos entre povos indígenas e documentou línguas, hábitos, fotografias e desenhos. Por que esse trabalho é importante?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Porque ajuda a conhecer e preservar informações sobre diferentes povos e culturas indígenas."
+            },
+            {
+              "id": "b",
+              "text": "Porque substitui a história contada pelas próprias comunidades."
+            },
+            {
+              "id": "c",
+              "text": "Porque prova que todos os povos indígenas têm os mesmos costumes."
+            },
+            {
+              "id": "d",
+              "text": "Porque foi responsável pela criação da Embratur."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Registros de línguas, hábitos, fotografias e desenhos podem ajudar a documentar a diversidade cultural, embora devam ser compreendidos com respeito às próprias comunidades."
+        },
+        {
+          "type": "open",
+          "id": "q30",
+          "title": "Patrimônio cultural e diversidade",
+          "prompt": "Escolha um exemplo de patrimônio afro-brasileiro ou indígena estudado e explique por que ele é importante para a memória e a identidade do Brasil.",
+          "expectedAnswer": "O aluno escolhe um exemplo estudado (como o Cais do Valongo, o Quilombo dos Palmares e a Serra da Barriga, a Cachoeira da Onça ou de Lauaretê, ou o trabalho de registro de Curt Nimuendajú) e explica que ele guarda a memória e a identidade de um povo, ajudando a compreender a diversidade e a história do Brasil.",
+          "keyConcepts": [
+            "exemplo afro-brasileiro ou indígena correto",
+            "relação com memória e identidade",
+            "diversidade do povo brasileiro"
+          ],
+          "criteria": [
+            "Escolhe um exemplo afro-brasileiro ou indígena realmente estudado no conteúdo.",
+            "Explica a importância do exemplo para a memória e a identidade do Brasil.",
+            "Usa as próprias palavras, em frases completas."
+          ],
+          "maxPoints": 3
+        }
+      ]
+    },
+    {
+      "id": "parte-5",
+      "title": "Imigração e patrimônio cultural europeu",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q31",
+          "title": "Imigração e diversidade cultural",
+          "prompt": "Segundo o conteúdo estudado, a chegada de imigrantes europeus se intensificou a partir de 1850, e a de asiáticos a partir de 1900. Muitos vieram:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Em busca de melhores condições de vida, fugindo da fome e da pobreza."
+            },
+            {
+              "id": "b",
+              "text": "Para participar da Independência de 1822."
+            },
+            {
+              "id": "c",
+              "text": "Para trabalhar exclusivamente no Museu Nacional."
+            },
+            {
+              "id": "d",
+              "text": "Porque todos eram proprietários de grandes palácios."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Muitos imigrantes deixaram seus lugares de origem por dificuldades econômicas e buscaram melhores oportunidades no Brasil."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q32",
+          "title": "Imigração e reconhecimento patrimonial",
+          "prompt": "Analise as afirmativas:",
+          "statements": [
+            "Imigrantes italianos, ucranianos e poloneses também contribuíram para a cultura brasileira.",
+            "No início, o patrimônio de grupos de imigrantes não portugueses recebeu pouca atenção do SPHAN.",
+            "Muitos imigrantes eram camponeses pobres e não possuíam grandes igrejas ou edifícios.",
+            "A imigração acontece apenas no passado e nunca ocorre atualmente."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas I e IV estão corretas."
+            },
+            {
+              "id": "b",
+              "text": "Apenas II e III estão corretas."
+            },
+            {
+              "id": "c",
+              "text": "Apenas I, II e III estão corretas."
+            },
+            {
+              "id": "d",
+              "text": "Todas estão corretas."
+            }
+          ],
+          "answer": "c",
+          "explanation": "I, II e III estão corretas. A imigração continua acontecendo, inclusive por guerras, pobreza e perseguições políticas."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q33",
+          "title": "Antônio Prado (RS)",
+          "prompt": "Antônio Prado, no Rio Grande do Sul, é importante para o patrimônio cultural porque:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Foi uma antiga colônia italiana fundada em 1886 e reconhecida como patrimônio nacional em 1987."
+            },
+            {
+              "id": "b",
+              "text": "Foi fundada pelos portugueses em 1500 e tombada em 1822."
+            },
+            {
+              "id": "c",
+              "text": "É o local do Cais do Valongo."
+            },
+            {
+              "id": "d",
+              "text": "Foi criada para abrigar as coleções egípcias."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Antônio Prado preserva marcas da imigração italiana e um conjunto arquitetônico que se diferencia de referências portuguesas."
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q34",
+          "title": "Arquitetura de Antônio Prado",
+          "prompt": "O centro histórico de Antônio Prado possui casas construídas majoritariamente com madeira de araucária, árvore atualmente protegida contra o corte. O que esse exemplo demonstra?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Que a arquitetura e os materiais usados nas construções também podem revelar a história dos grupos que formaram uma comunidade."
+            },
+            {
+              "id": "b",
+              "text": "Que todas as cidades brasileiras possuem arquitetura igual."
+            },
+            {
+              "id": "c",
+              "text": "Que a imigração não deixou marcas culturais."
+            },
+            {
+              "id": "d",
+              "text": "Que casas de madeira não podem ter valor histórico."
+            }
+          ],
+          "answer": "a",
+          "explanation": "A arquitetura é uma fonte para conhecer modos de vida, técnicas, materiais e influências culturais de diferentes comunidades."
+        },
+        {
+          "type": "open",
+          "id": "q35",
+          "title": "O patrimônio de diferentes grupos",
+          "prompt": "Explique por que é importante reconhecer e preservar as contribuições culturais de diferentes grupos de imigrantes no Brasil.",
+          "expectedAnswer": "Porque diferentes grupos de imigrantes ajudaram a formar a cultura brasileira (por exemplo, na arquitetura, nas tradições e na alimentação). Reconhecer e preservar essas contribuições valoriza a diversidade e a memória de todos, e não apenas de um grupo. Um exemplo estudado é Antônio Prado (RS), de imigração italiana.",
+          "keyConcepts": [
+            "contribuição de diferentes imigrantes",
+            "valorização da diversidade",
+            "memória de todos os grupos"
+          ],
+          "criteria": [
+            "Reconhece que diferentes grupos ajudaram a formar a cultura brasileira.",
+            "Explica por que é importante preservar essas contribuições.",
+            "Usa as próprias palavras, em frases completas."
+          ],
+          "maxPoints": 3
+        }
+      ]
+    }
+  ]
+}

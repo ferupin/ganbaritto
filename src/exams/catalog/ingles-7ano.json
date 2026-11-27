@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "id": "exemplo-ingles-7ano-v1",
+  "title": "English: grammar, vocabulary and reading",
+  "subject": "Língua Inglesa",
+  "grade": "7º Ano do Ensino Fundamental II",
+  "description": "Exemplo do 7º ano: enunciados em inglês, leitura curta, falsos cognatos e análise de afirmativas.",
+  "sources": {
+    "providedMaterial": [
+      "Nenhum material de escola: exemplo elaborado para demonstração"
+    ],
+    "onlyProvidedMaterial": true,
+    "external": [],
+    "notes": "Exemplo ilustrativo, elaborado a partir de habilidades gerais do currículo nacional (BNCC) para mostrar como um simulado deste ano se estrutura. Não substitui o material da sua escola: confira o conteúdo e o gabarito antes de usar."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Grammar",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "prompt": "Choose the correct form: She ___ to school every day.",
+          "options": [
+            {
+              "id": "a",
+              "text": "go"
+            },
+            {
+              "id": "b",
+              "text": "goes"
+            },
+            {
+              "id": "c",
+              "text": "going"
+            },
+            {
+              "id": "d",
+              "text": "gone"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Com she, o verbo no presente simples leva -es: goes.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "prompt": "What is the plural of “child”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "childs"
+            },
+            {
+              "id": "b",
+              "text": "childes"
+            },
+            {
+              "id": "c",
+              "text": "children"
+            },
+            {
+              "id": "d",
+              "text": "childrens"
+            }
+          ],
+          "answer": "c",
+          "explanation": "“Child” tem plural irregular: children.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "prompt": "Which sentence is in the Simple Past?",
+          "options": [
+            {
+              "id": "a",
+              "text": "I played soccer yesterday."
+            },
+            {
+              "id": "b",
+              "text": "I play soccer every day."
+            },
+            {
+              "id": "c",
+              "text": "I am playing soccer now."
+            },
+            {
+              "id": "d",
+              "text": "I will play soccer tomorrow."
+            }
+          ],
+          "answer": "a",
+          "explanation": "“Played” e “yesterday” indicam passado.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "prompt": "Choose the correct preposition: The book is ___ the table.",
+          "options": [
+            {
+              "id": "a",
+              "text": "at"
+            },
+            {
+              "id": "b",
+              "text": "with"
+            },
+            {
+              "id": "c",
+              "text": "of"
+            },
+            {
+              "id": "d",
+              "text": "on"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Usamos “on” para algo apoiado sobre uma superfície.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "prompt": "Read the sentences and choose the right option.",
+          "statements": [
+            "There are three books on the desk.",
+            "There is three books on the desk.",
+            "They are my friends."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Only I and II are correct."
+            },
+            {
+              "id": "b",
+              "text": "Only I and III are correct."
+            },
+            {
+              "id": "c",
+              "text": "Only II and III are correct."
+            },
+            {
+              "id": "d",
+              "text": "I, II and III are correct."
+            }
+          ],
+          "answer": "b",
+          "explanation": "“There are” é usado com plural (three books). A frase II está errada.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Vocabulary and reading",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q06",
+          "prompt": "Which word is the opposite of “cold”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "cool"
+            },
+            {
+              "id": "b",
+              "text": "wet"
+            },
+            {
+              "id": "c",
+              "text": "dry"
+            },
+            {
+              "id": "d",
+              "text": "hot"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Hot é o oposto de cold.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "context": "Tom wakes up at 6:30, has breakfast at 7:00 and goes to school at 7:30.",
+          "prompt": "What time does Tom have breakfast?",
+          "options": [
+            {
+              "id": "a",
+              "text": "At 6:30"
+            },
+            {
+              "id": "b",
+              "text": "At 7:30"
+            },
+            {
+              "id": "c",
+              "text": "At 7:00"
+            },
+            {
+              "id": "d",
+              "text": "At 8:00"
+            }
+          ],
+          "answer": "c",
+          "explanation": "O texto diz que Tom toma café da manhã às 7:00.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "prompt": "How do you ask someone's name?",
+          "options": [
+            {
+              "id": "a",
+              "text": "What's your name?"
+            },
+            {
+              "id": "b",
+              "text": "Where is your name?"
+            },
+            {
+              "id": "c",
+              "text": "How old is your name?"
+            },
+            {
+              "id": "d",
+              "text": "Who are your name?"
+            }
+          ],
+          "answer": "a",
+          "explanation": "A pergunta usual é “What’s your name?”.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "prompt": "What does “library” mean in Portuguese?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Biblioteca"
+            },
+            {
+              "id": "b",
+              "text": "Livraria"
+            },
+            {
+              "id": "c",
+              "text": "Laboratório"
+            },
+            {
+              "id": "d",
+              "text": "Lanchonete"
+            }
+          ],
+          "answer": "a",
+          "explanation": "“Library” é biblioteca. “Livraria” é “bookstore” (falso cognato).",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q10",
+          "prompt": "Choose the correct question word: ___ is your birthday? It's in July.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Where"
+            },
+            {
+              "id": "b",
+              "text": "When"
+            },
+            {
+              "id": "c",
+              "text": "Who"
+            },
+            {
+              "id": "d",
+              "text": "Why"
+            }
+          ],
+          "answer": "b",
+          "explanation": "A resposta indica um momento do ano, por isso usamos “When”.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

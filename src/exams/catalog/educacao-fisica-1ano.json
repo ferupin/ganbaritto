@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "exemplo-educacao-fisica-1ano-v1",
+  "title": "Educação Física: brincar e se movimentar",
+  "subject": "Educação Física",
+  "grade": "1º Ano do Ensino Fundamental I",
+  "description": "Exemplo do 1º ano: frases curtas, vocabulário do dia a dia e alternativas bem diretas.",
+  "sources": {
+    "providedMaterial": [
+      "Nenhum material de escola: exemplo elaborado para demonstração"
+    ],
+    "onlyProvidedMaterial": true,
+    "external": [],
+    "notes": "Exemplo ilustrativo, elaborado a partir de habilidades gerais do currículo nacional (BNCC) para mostrar como um simulado deste ano se estrutura. Não substitui o material da sua escola: confira o conteúdo e o gabarito antes de usar."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Corpo e movimento",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "prompt": "Para cuidar do corpo, o que é bom fazer todos os dias?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ficar parado o dia todo"
+            },
+            {
+              "id": "b",
+              "text": "Brincar e se movimentar"
+            },
+            {
+              "id": "c",
+              "text": "Passar horas sem se mexer"
+            },
+            {
+              "id": "d",
+              "text": "Evitar qualquer brincadeira"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Movimentar o corpo todos os dias ajuda a ficar forte e saudável.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "prompt": "Antes de uma brincadeira de correr, o que ajuda o corpo a se preparar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Dormir de repente no meio do pátio"
+            },
+            {
+              "id": "b",
+              "text": "Comer um lanche muito grande"
+            },
+            {
+              "id": "c",
+              "text": "Ficar sentado quieto"
+            },
+            {
+              "id": "d",
+              "text": "Alongar braços e pernas"
+            }
+          ],
+          "answer": "d",
+          "explanation": "O alongamento prepara os músculos e ajuda a evitar machucados.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "prompt": "Qual parte do corpo usamos para chutar uma bola?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Os pés"
+            },
+            {
+              "id": "b",
+              "text": "As mãos"
+            },
+            {
+              "id": "c",
+              "text": "Os ombros"
+            },
+            {
+              "id": "d",
+              "text": "Os cotovelos"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Chutamos a bola com os pés.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "prompt": "Depois de brincar muito, o que é importante fazer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ficar sem beber nada"
+            },
+            {
+              "id": "b",
+              "text": "Correr mais sem parar"
+            },
+            {
+              "id": "c",
+              "text": "Beber água e descansar"
+            },
+            {
+              "id": "d",
+              "text": "Pular o lanche e a água"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Depois do esforço, o corpo precisa de água e de descanso.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "prompt": "Qual destas atitudes ajuda a brincar com segurança no pátio?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Empurrar quem está na frente da fila"
+            },
+            {
+              "id": "b",
+              "text": "Esperar a vez e olhar ao redor"
+            },
+            {
+              "id": "c",
+              "text": "Correr de olhos fechados"
+            },
+            {
+              "id": "d",
+              "text": "Subir onde é proibido"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Esperar a vez e prestar atenção evita acidentes.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Brincadeiras e convivência",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q06",
+          "prompt": "Em um jogo, o que fazer quando um colega perde?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Respeitar e incentivar o colega"
+            },
+            {
+              "id": "b",
+              "text": "Rir muito do colega que perdeu o jogo"
+            },
+            {
+              "id": "c",
+              "text": "Sair do jogo bravo"
+            },
+            {
+              "id": "d",
+              "text": "Culpar outra pessoa"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Jogar bem também é tratar os colegas com respeito.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "prompt": "Qual destas é uma brincadeira de roda?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Amarelinha no chão"
+            },
+            {
+              "id": "b",
+              "text": "Esconde-esconde"
+            },
+            {
+              "id": "c",
+              "text": "Cabo de guerra"
+            },
+            {
+              "id": "d",
+              "text": "Ciranda-cirandinha"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Na ciranda-cirandinha, as crianças formam uma roda de mãos dadas.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "prompt": "Em uma roda de brincadeira, quem pode participar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Só quem corre mais rápido que os outros"
+            },
+            {
+              "id": "b",
+              "text": "Só quem é mais forte"
+            },
+            {
+              "id": "c",
+              "text": "Todos, cada um do seu jeito"
+            },
+            {
+              "id": "d",
+              "text": "Só os maiores"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Todas as crianças têm direito de brincar e participar.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "prompt": "Na brincadeira de pular corda, quando se deve pular?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Quando a corda passa por baixo dos pés"
+            },
+            {
+              "id": "b",
+              "text": "Quando a corda está parada no chão da quadra"
+            },
+            {
+              "id": "c",
+              "text": "Antes de a corda se mexer"
+            },
+            {
+              "id": "d",
+              "text": "Só depois de sair da brincadeira"
+            }
+          ],
+          "answer": "a",
+          "explanation": "O pulo acontece no momento em que a corda passa por baixo dos pés.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q10",
+          "prompt": "O que fazer ao sentir dor durante a brincadeira?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Esconder e continuar"
+            },
+            {
+              "id": "b",
+              "text": "Avisar um adulto"
+            },
+            {
+              "id": "c",
+              "text": "Gritar com o colega"
+            },
+            {
+              "id": "d",
+              "text": "Sair correndo sem avisar"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Quando algo dói, o certo é avisar um adulto para ajudar.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

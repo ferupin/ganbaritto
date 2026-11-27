@@ -1,0 +1,578 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Tokens de design. A identidade (cores, logotipo) será definida depois:
+   tudo que é cor vive aqui, em variáveis, e é exposto ao Tailwind por
+   @theme inline. Componentes usam só estes tokens, nunca hex.
+
+   Metáfora: uma FOLHA de prova sobre uma MESA.
+   - Claro (padrão): folha creme (não branco puro) sobre mesa areia.
+   - Escuro: folha em ardósia suave, texto off-white quente, sem neon.
+   ========================================================================== */
+
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+  --desk: #f4ebdd;
+  --paper: #faf7f1;
+  --paper-2: #f1e9db;
+  --field: #ffffff;
+  --ink: #263b50;
+  --muted: #526575;
+  --line: #ddd6c9;
+  --line-strong: #8a8374;
+  --accent: #ef8c69;
+  --accent-ink: #263b50;
+  --accent-text: #a63d1a;
+  --accent-soft: #fbe3d9;
+  --ring: #263b50;
+  --hl: #e8bd54;
+  --hl-ink: #263b50;
+  --warm: #7a5a00;
+  --warm-soft: #f8ebc4;
+  --warm-line: #d9bc62;
+  --ok: #456b55;
+  --ok-soft: #e3ede5;
+  --ok-line: #91a99a;
+  --bad: #b3261e;
+  --bad-soft: #f8e0dc;
+  --bad-line: #d9988f;
+  --brand-coral: #e8754f;
+  --shadow: 0 1px 2px rgb(38 59 80 / 0.08), 0 10px 30px rgb(38 59 80 / 0.1);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --desk: #172330;
+  --paper: #223344;
+  --paper-2: #304457;
+  --field: #1b2a3a;
+  --ink: #f4ebdd;
+  --muted: #b9c5ce;
+  --line: #405367;
+  --line-strong: #8095aa;
+  --accent: #e8754f;
+  --accent-ink: #172330;
+  --accent-text: #f6a383;
+  --accent-soft: #3f3a44;
+  --ring: #f4ebdd;
+  --hl: #e8bd54;
+  --hl-ink: #172330;
+  --warm: #e8bd54;
+  --warm-soft: #3e3b2e;
+  --warm-line: #7a6a3a;
+  --ok: #a8c4ae;
+  --ok-soft: #27423a;
+  --ok-line: #4f7a66;
+  --bad: #f29a8f;
+  --bad-soft: #4a2f35;
+  --bad-line: #8a4e52;
+  --brand-coral: #e8754f;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 10px 30px rgb(0 0 0 / 0.35);
+}
+
+@theme inline {
+  --color-desk: var(--desk);
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-text: var(--accent-text);
+  --color-ring: var(--ring);
+  --color-field: var(--field);
+  --color-hl: var(--hl);
+  --color-hl-ink: var(--hl-ink);
+  --color-warm-line: var(--warm-line);
+  --color-brand-coral: var(--brand-coral);
+  --color-warm: var(--warm);
+  --color-warm-soft: var(--warm-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-ok-line: var(--ok-line);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-bad-line: var(--bad-line);
+  --shadow-sheet: var(--shadow);
+  --font-display: "Plus Jakarta Sans", "Atkinson Hyperlegible", ui-rounded, system-ui, sans-serif;
+  --font-sans: "Atkinson Hyperlegible", ui-rounded, "Segoe UI", system-ui,
+    -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-desk font-sans text-[17px] leading-relaxed text-ink antialiased;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  /* Link sempre sublinhado: a cor sozinha não basta para distingui-lo do texto. */
+  a {
+    @apply text-accent-text underline underline-offset-2;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display leading-tight;
+  }
+  :focus-visible {
+    @apply rounded-md outline-3 outline-offset-2 outline-ring;
+  }
+  button:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Padrões que se repetem. Cada um está listado em docs/design-system.md.
+   Layout e espaçamento ficam em utilitários dentro dos componentes.
+   ------------------------------------------------------------------ */
+@layer components {
+  .sheet {
+    @apply rounded-none border-y border-line bg-paper px-4 py-6 shadow-sheet sm:rounded-md sm:border sm:px-8 sm:py-9 lg:px-11;
+  }
+  .page-title {
+    @apply mb-1.5 text-2xl font-bold tracking-tight sm:text-3xl;
+  }
+  .lead {
+    @apply mb-6 text-muted;
+  }
+  .section-title {
+    @apply mb-3 mt-7 text-xl font-bold first-of-type:mt-0;
+  }
+
+  .btn {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-line-strong bg-paper-2 px-4 py-2 text-[15px] font-bold text-ink no-underline transition-[filter,border-color,transform] duration-150 hover:border-ink active:translate-y-px disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:border-line-strong;
+  }
+  .btn-primary {
+    @apply border-accent bg-accent text-accent-ink hover:brightness-110;
+  }
+  .btn-danger {
+    @apply text-bad hover:border-bad;
+  }
+  .btn-sm {
+    @apply min-h-9 px-3 py-1.5 text-sm;
+  }
+  .btn-icon {
+    @apply min-w-11 px-2;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 whitespace-nowrap rounded-full border border-transparent bg-accent-soft px-2.5 py-0.5 text-xs font-bold text-accent-text;
+  }
+  .badge-warm {
+    @apply bg-warm-soft text-warm;
+  }
+  .badge-ok {
+    @apply bg-ok-soft text-ok;
+  }
+  .badge-bad {
+    @apply bg-bad-soft text-bad;
+  }
+  .badge-muted {
+    @apply border-line bg-paper-2 text-muted;
+  }
+
+  .callout {
+    @apply my-4 rounded-md border-l-4 border-accent bg-paper-2 px-4 py-3 text-[15px];
+  }
+  .callout-warn {
+    @apply border-warm;
+  }
+  .callout-ok {
+    @apply border-ok bg-ok-soft;
+  }
+  .callout-bad {
+    @apply border-bad bg-bad-soft;
+  }
+
+  /* Campos de texto. aria-invalid vem do componente Field. */
+  .input {
+    @apply w-full rounded-xl border border-line-strong bg-paper-2 px-3.5 py-3 text-ink placeholder:text-muted/70 disabled:opacity-85;
+  }
+  .input[aria-invalid="true"] {
+    @apply border-2 border-bad bg-bad-soft/40;
+  }
+  /* Campo preenchido: fundo mais claro que o vazio e uma barra de destaque,
+     para a pessoa ver de relance o que já foi digitado. Exige placeholder. */
+  .input:not(:placeholder-shown):not([aria-invalid="true"]) {
+    @apply border-line-strong bg-field;
+    box-shadow: inset 3px 0 0 var(--accent);
+  }
+  textarea.input {
+    @apply min-h-28 resize-y;
+  }
+  select.input {
+    @apply min-h-11;
+  }
+
+  .card {
+    @apply flex flex-col gap-2.5 rounded-2xl border border-line bg-paper-2 p-4 sm:p-[18px];
+  }
+  details.disclosure > summary {
+    @apply flex min-h-14 list-none items-center gap-3 rounded-2xl border border-line bg-paper-2 px-4 py-3 transition-colors hover:border-ink;
+  }
+  details.disclosure > summary::-webkit-details-marker {
+    display: none;
+  }
+  details.disclosure[open] > summary {
+    @apply rounded-b-none border-b-transparent;
+  }
+  details.disclosure[open] > summary .chevron {
+    transform: rotate(180deg);
+  }
+  .step-dot {
+    @apply grid size-6 flex-none place-items-center rounded-full bg-accent text-[13px] font-extrabold text-accent-ink;
+  }
+  .or-divider {
+    @apply my-4 flex items-center gap-3 text-sm font-bold uppercase tracking-wide text-muted;
+  }
+  .or-divider::before,
+  .or-divider::after {
+    content: "";
+    @apply h-px flex-1 bg-line-strong;
+  }
+  .card-meta {
+    @apply text-sm text-muted;
+  }
+
+  /* Botões de escolha (segmentado, rubrica). O rádio nativo fica escondido
+     mas continua focável: uma parada de Tab, setas dentro do grupo. */
+  .pick > input {
+    @apply pointer-events-none absolute opacity-0;
+  }
+  .pick > span {
+    @apply inline-flex min-h-11 min-w-11 cursor-pointer items-center justify-center rounded-xl border-2 border-line-strong bg-paper px-4 text-[15px] font-extrabold transition-colors duration-150 hover:border-ink;
+  }
+  .pick > input:checked + span {
+    @apply border-ink bg-accent text-accent-ink;
+  }
+  .pick > input:focus-visible + span {
+    @apply outline-3 outline-offset-2 outline-ring;
+  }
+
+  .pick-fill > span {
+    @apply w-full text-center leading-tight;
+  }
+  /* Cores com significado (dificuldade): sempre acompanhadas de texto.
+     Quem não está selecionado fica apagado; a cor cheia é só da escolha ativa. */
+  .pick-ok > span,
+  .pick-warm > span,
+  .pick-bad > span {
+    @apply border-line bg-paper-2 font-bold text-muted;
+  }
+  .pick-ok > span:hover {
+    @apply border-ok-line bg-ok-soft text-ok;
+  }
+  .pick-warm > span:hover {
+    @apply border-warm/50 bg-warm-soft text-warm;
+  }
+  .pick-bad > span:hover {
+    @apply border-bad-line bg-bad-soft text-bad;
+  }
+  .pick-ok > input:checked + span {
+    @apply border-ok bg-ok font-extrabold text-paper shadow-sm;
+  }
+  .pick-warm > input:checked + span {
+    @apply border-warm bg-warm font-extrabold text-paper shadow-sm;
+  }
+  .pick-bad > input:checked + span {
+    @apply border-bad bg-bad font-extrabold text-paper shadow-sm;
+  }
+
+  /* Fórmulas (KaTeX) */
+  .math-block {
+    @apply my-2 block overflow-x-auto overflow-y-hidden text-center;
+  }
+  .math-pending {
+    @apply font-mono text-[0.9em] text-muted;
+  }
+  .katex {
+    font-size: 1.08em;
+  }
+  .option .katex-display,
+  .question .katex-display {
+    margin: 0.4em 0;
+  }
+
+  /* Revisão pós-correção e voltar ao topo */
+  .review-nav {
+    @apply fixed bottom-4 left-4 right-20 z-20 flex items-center gap-2 rounded-2xl border border-line-strong bg-paper px-3 py-2 shadow-sheet sm:left-1/2 sm:right-auto sm:-translate-x-1/2 print:hidden;
+  }
+  /* Destaque amigável: um brilho suave que entra rápido e se dissolve devagar. */
+  .question[data-flash="on"] {
+    animation: flash-soft 2.8s cubic-bezier(0.25, 0.6, 0.35, 1) both;
+  }
+  .question:focus {
+    outline: none;
+  }
+  .scroll-top {
+    @apply fixed bottom-4 right-4 z-20 grid size-12 place-items-center rounded-full border border-line-strong bg-paper text-ink shadow-sheet transition-[opacity,translate] duration-200 hover:bg-paper-2 print:hidden;
+  }
+  .scroll-top[data-show="false"] {
+    @apply pointer-events-none translate-y-3 opacity-0;
+  }
+
+  /* Prova */
+  .part-title {
+    @apply mb-4 mt-9 border-b-2 border-accent pb-1.5 font-display text-xl font-bold text-accent-text;
+  }
+  .question {
+    @apply mb-4 break-inside-avoid rounded-xl border border-line bg-paper p-3.5 sm:px-5 sm:py-[18px];
+  }
+  .option {
+    @apply flex cursor-pointer items-start gap-3 rounded-xl border border-line bg-paper px-3 py-2.5 transition-colors duration-150 hover:bg-paper-2 has-[input:focus-visible]:outline-3 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-ring;
+  }
+  .option > input {
+    @apply pointer-events-none absolute opacity-0;
+  }
+  .option-letter {
+    @apply grid size-7 flex-none place-items-center rounded-full border-2 border-line-strong text-sm font-extrabold text-muted;
+  }
+  .option-selected {
+    @apply border-ink bg-accent-soft;
+  }
+  .option-selected .option-letter {
+    @apply border-ink bg-accent text-accent-ink;
+  }
+  .option-locked {
+    @apply cursor-default;
+  }
+  .option-correct {
+    @apply border-ok-line bg-ok-soft text-ok;
+  }
+  .option-correct .option-letter {
+    @apply border-ok bg-ok text-paper;
+  }
+  .option-wrong {
+    @apply border-bad-line bg-bad-soft text-bad;
+  }
+  .option-wrong .option-letter {
+    @apply border-bad bg-bad text-paper;
+  }
+}
+
+/* ------------------------------------------------------------ modal */
+dialog.modal {
+  @apply m-auto w-[min(92vw,30rem)] rounded-2xl border border-line-strong bg-paper p-0 text-ink shadow-sheet;
+}
+dialog.modal::backdrop {
+  background: rgb(0 0 0 / 0.45);
+  backdrop-filter: blur(3px);
+}
+html[data-modal-open] main {
+  filter: blur(2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+  .question[data-flash="on"] {
+    background-color: color-mix(in srgb, var(--hl) 22%, var(--paper));
+    box-shadow: 0 0 0 5px color-mix(in srgb, var(--hl) 60%, transparent);
+  }
+}
+
+/* Avisos: entram deslizando do topo e saem com fade. */
+@keyframes flash-soft {
+  0% {
+    background-color: var(--paper);
+    box-shadow: 0 0 0 0 transparent;
+  }
+  12% {
+    background-color: color-mix(in srgb, var(--hl) 32%, var(--paper));
+    box-shadow: 0 0 0 5px color-mix(in srgb, var(--hl) 60%, transparent);
+  }
+  45% {
+    background-color: color-mix(in srgb, var(--hl) 20%, var(--paper));
+    box-shadow: 0 0 0 7px color-mix(in srgb, var(--hl) 35%, transparent);
+  }
+  100% {
+    background-color: var(--paper);
+    box-shadow: 0 0 0 12px transparent;
+  }
+}
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+@keyframes toast-out {
+  to {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+.fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+.toast-in {
+  animation: toast-in 0.22s ease-out;
+}
+.toast-out {
+  animation: toast-out 0.22s ease-in forwards;
+}
+
+/* ------------------------------------------------------------ impressão */
+@page {
+  size: A4;
+  margin: 14mm;
+}
+@media print {
+  :root,
+  :root[data-theme="light"],
+  :root[data-theme="dark"] {
+    --desk: #fff;
+    --paper: #fff;
+    --paper-2: #fff;
+    --ink: #000;
+    --muted: #333;
+    --line: #bbb;
+    --line-strong: #666;
+    --accent: #000;
+    --accent-text: #000;
+    --accent-soft: #fff;
+    --ring: #000;
+    --field: #fff;
+    --brand-coral: #000;
+  }
+  body {
+    font-size: 12px;
+    background: #fff;
+  }
+  .sheet {
+    box-shadow: none;
+    border: 0;
+    padding: 8mm;
+  }
+  .question {
+    border-color: #999;
+    break-inside: avoid-page;
+  }
+  .part-title {
+    break-after: avoid;
+  }
+  textarea.input {
+    min-height: 70px;
+    border: 1px solid #777;
+    background: #fff;
+  }
+  .option-selected {
+    background: #fff;
+  }
+  /* Folha de papel (caderno e gabarito): sem cor, sem sombra, sem cartões. */
+  .print-sheet {
+    color: #000;
+    font-size: 11.5pt;
+    line-height: 1.35;
+  }
+  .print-head {
+    border: 1.5pt solid #000;
+    padding: 4mm 5mm;
+    margin-bottom: 6mm;
+    text-align: center;
+  }
+  .print-head h1 {
+    font-size: 16pt;
+    font-weight: 700;
+    margin: 1mm 0;
+  }
+  .print-inst {
+    font-size: 9pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .print-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 6mm;
+    margin-top: 5mm;
+    text-align: left;
+    font-size: 10.5pt;
+  }
+  .print-q {
+    break-inside: avoid;
+    margin-bottom: 5mm;
+  }
+  .print-q p {
+    margin: 0 0 1.2mm;
+  }
+  /* Bloco (não flex): o Chrome só respeita "não quebrar a questão" em blocos. */
+  .print-row {
+    position: relative;
+    padding-left: 9mm;
+  }
+  .print-num {
+    position: absolute;
+    left: 0;
+  }
+  .print-body {
+    min-width: 0;
+  }
+  .print-prompt {
+    font-weight: 600;
+  }
+  .print-context {
+    border-left: 2pt solid #666;
+    padding-left: 3mm;
+  }
+  .print-opt {
+    padding-left: 4mm;
+    display: flex;
+    gap: 2.5mm;
+    align-items: baseline;
+  }
+  .print-bubble {
+    display: inline-block;
+    flex: none;
+    width: 3.2mm;
+    height: 3.2mm;
+    border: 1pt solid #000;
+    border-radius: 50%;
+    translate: 0 0.4mm;
+  }
+  .print-stmt {
+    padding-left: 4mm;
+  }
+  .print-lines {
+    margin-top: 2mm;
+  }
+  .print-line {
+    height: 8mm;
+    border-bottom: 0.5pt solid #666;
+  }
+  .print-key {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5mm 4mm;
+    border: 1pt solid #000;
+    padding: 3mm 4mm;
+    margin-bottom: 6mm;
+    font-size: 11pt;
+  }
+  .print-expl {
+    color: #222;
+    font-size: 10.5pt;
+  }
+  .print-list {
+    list-style: disc;
+    padding-left: 6mm;
+    font-size: 10.5pt;
+  }
+}

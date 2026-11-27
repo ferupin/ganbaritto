@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "id": "exemplo-geografia-6ano-v1",
+  "title": "Geografia: orientação, mapas e paisagens",
+  "subject": "Geografia",
+  "grade": "6º Ano do Ensino Fundamental II",
+  "description": "Exemplo do 6º ano: leitura de mapas, escala, relevo e uma tabela de dados.",
+  "sources": {
+    "providedMaterial": [
+      "Nenhum material de escola: exemplo elaborado para demonstração"
+    ],
+    "onlyProvidedMaterial": true,
+    "external": [],
+    "notes": "Exemplo ilustrativo, elaborado a partir de habilidades gerais do currículo nacional (BNCC) para mostrar como um simulado deste ano se estrutura. Não substitui o material da sua escola: confira o conteúdo e o gabarito antes de usar."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Orientação e representação",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "prompt": "Qual instrumento ajuda a se orientar pelas direções?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Termômetro"
+            },
+            {
+              "id": "b",
+              "text": "Régua"
+            },
+            {
+              "id": "c",
+              "text": "Bússola"
+            },
+            {
+              "id": "d",
+              "text": "Balança"
+            }
+          ],
+          "answer": "c",
+          "explanation": "A agulha da bússola aponta para o Norte magnético.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "prompt": "Quais são os pontos cardeais?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Norte, Sul, Leste e Oeste"
+            },
+            {
+              "id": "b",
+              "text": "Norte, Sul, Centro e Fim"
+            },
+            {
+              "id": "c",
+              "text": "Leste, Oeste, Alto e Baixo"
+            },
+            {
+              "id": "d",
+              "text": "Frente, Trás, Norte e Sul"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Os pontos cardeais são Norte, Sul, Leste e Oeste.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "prompt": "Em um mapa com escala 1:100.000, 1 cm no mapa representa na realidade:",
+          "options": [
+            {
+              "id": "a",
+              "text": "10 km"
+            },
+            {
+              "id": "b",
+              "text": "100 m"
+            },
+            {
+              "id": "c",
+              "text": "100 km"
+            },
+            {
+              "id": "d",
+              "text": "1 km"
+            }
+          ],
+          "answer": "d",
+          "explanation": "1 cm × 100.000 = 100.000 cm, que equivalem a 1.000 m, ou seja, 1 km.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "prompt": "Qual linha imaginária divide a Terra em hemisfério Norte e hemisfério Sul?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Meridiano de Greenwich"
+            },
+            {
+              "id": "b",
+              "text": "Linha do Equador"
+            },
+            {
+              "id": "c",
+              "text": "Trópico de Capricórnio"
+            },
+            {
+              "id": "d",
+              "text": "Círculo Polar Ártico"
+            }
+          ],
+          "answer": "b",
+          "explanation": "A Linha do Equador separa os hemisférios Norte e Sul.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "prompt": "O movimento de rotação da Terra causa:",
+          "options": [
+            {
+              "id": "a",
+              "text": "As estações do ano"
+            },
+            {
+              "id": "b",
+              "text": "As fases da Lua"
+            },
+            {
+              "id": "c",
+              "text": "A formação dos rios"
+            },
+            {
+              "id": "d",
+              "text": "A sucessão de dias e noites"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Como a Terra gira em torno de si mesma, cada lado recebe luz e fica na sombra, alternadamente.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Terra, relevo e paisagem",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q06",
+          "prompt": "Qual é a camada mais externa da Terra?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Crosta"
+            },
+            {
+              "id": "b",
+              "text": "Manto"
+            },
+            {
+              "id": "c",
+              "text": "Núcleo externo"
+            },
+            {
+              "id": "d",
+              "text": "Núcleo interno"
+            }
+          ],
+          "answer": "a",
+          "explanation": "A crosta é a camada sólida e fina onde vivemos.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "prompt": "Sobre as formas de relevo, analise as afirmativas:",
+          "statements": [
+            "Planícies são terrenos mais planos.",
+            "Montanhas são grandes elevações do terreno.",
+            "Depressões são áreas mais baixas que o terreno ao redor."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas I está correta"
+            },
+            {
+              "id": "b",
+              "text": "Apenas I e II estão corretas"
+            },
+            {
+              "id": "c",
+              "text": "I, II e III estão corretas"
+            },
+            {
+              "id": "d",
+              "text": "Apenas II e III estão corretas"
+            }
+          ],
+          "answer": "c",
+          "explanation": "As três descrições estão certas, então a alternativa correta é a que reúne I, II e III.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "prompt": "Observe a tabela (valores aproximados). Qual cidade está na maior altitude?",
+          "table": {
+            "caption": "Altitude aproximada de algumas cidades",
+            "headers": [
+              "Cidade",
+              "Altitude (m)"
+            ],
+            "rows": [
+              [
+                "Salvador",
+                "8"
+              ],
+              [
+                "Manaus",
+                "92"
+              ],
+              [
+                "São Paulo",
+                "760"
+              ],
+              [
+                "Brasília",
+                "1.172"
+              ]
+            ]
+          },
+          "options": [
+            {
+              "id": "a",
+              "text": "Salvador"
+            },
+            {
+              "id": "b",
+              "text": "Brasília"
+            },
+            {
+              "id": "c",
+              "text": "São Paulo"
+            },
+            {
+              "id": "d",
+              "text": "Manaus"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Brasília tem altitude de cerca de 1.172 m, a maior entre as cidades da tabela.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "prompt": "Uma paisagem natural é aquela que:",
+          "options": [
+            {
+              "id": "a",
+              "text": "É formada só por prédios"
+            },
+            {
+              "id": "b",
+              "text": "Existe apenas em cidades"
+            },
+            {
+              "id": "c",
+              "text": "Foi totalmente construída"
+            },
+            {
+              "id": "d",
+              "text": "Foi pouco modificada pelo ser humano"
+            }
+          ],
+          "answer": "d",
+          "explanation": "A paisagem natural tem poucas alterações feitas pelas pessoas.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q10",
+          "prompt": "Qual é o rio de maior volume de água do Brasil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "b",
+              "text": "Rio Amazonas"
+            },
+            {
+              "id": "c",
+              "text": "Rio Tietê"
+            },
+            {
+              "id": "d",
+              "text": "Rio Paraná"
+            }
+          ],
+          "answer": "b",
+          "explanation": "O Amazonas é o rio mais caudaloso do Brasil e do mundo.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

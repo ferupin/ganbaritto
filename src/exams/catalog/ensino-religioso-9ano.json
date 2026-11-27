@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "id": "exemplo-ensino-religioso-9ano-v1",
+  "title": "Ensino Religioso: diversidade, respeito e ética",
+  "subject": "Ensino Religioso",
+  "grade": "9º Ano do Ensino Fundamental II",
+  "description": "Exemplo do 9º ano: diversidade de crenças, direitos e convivência, sem promover uma religião específica.",
+  "sources": {
+    "providedMaterial": [
+      "Nenhum material de escola: exemplo elaborado para demonstração"
+    ],
+    "onlyProvidedMaterial": true,
+    "external": [],
+    "notes": "Exemplo ilustrativo, elaborado a partir de habilidades gerais do currículo nacional (BNCC) para mostrar como um simulado deste ano se estrutura. Não substitui o material da sua escola: confira o conteúdo e o gabarito antes de usar."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Diversidade e direitos",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "prompt": "O que significa liberdade religiosa?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Obrigação de seguir a religião da maioria"
+            },
+            {
+              "id": "b",
+              "text": "Proibição de falar sobre religião em público"
+            },
+            {
+              "id": "c",
+              "text": "Direito de escolher e praticar a sua crença"
+            },
+            {
+              "id": "d",
+              "text": "Direito de impor a própria crença aos outros"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Cada pessoa pode ter ou não ter religião, e todas devem ser respeitadas.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "prompt": "Qual atitude promove o respeito à diversidade religiosa?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Zombar dos rituais de outros grupos religiosos"
+            },
+            {
+              "id": "b",
+              "text": "Dialogar e respeitar crenças diferentes"
+            },
+            {
+              "id": "c",
+              "text": "Excluir quem pensa diferente"
+            },
+            {
+              "id": "d",
+              "text": "Proibir símbolos de outras crenças"
+            }
+          ],
+          "answer": "b",
+          "explanation": "O respeito nasce do diálogo e da convivência pacífica.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "prompt": "A intolerância religiosa é:",
+          "options": [
+            {
+              "id": "a",
+              "text": "O estudo respeitoso das várias religiões do país"
+            },
+            {
+              "id": "b",
+              "text": "A participação em festas culturais"
+            },
+            {
+              "id": "c",
+              "text": "O diálogo entre grupos"
+            },
+            {
+              "id": "d",
+              "text": "Desrespeito ou ataque a crenças diferentes"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Intolerância é tratar com desrespeito ou violência quem tem outra crença.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "prompt": "Qual documento brasileiro garante a liberdade de crença?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A Constituição Federal"
+            },
+            {
+              "id": "b",
+              "text": "O Código de Trânsito"
+            },
+            {
+              "id": "c",
+              "text": "O regulamento de um clube"
+            },
+            {
+              "id": "d",
+              "text": "A lista de preços de uma loja"
+            }
+          ],
+          "answer": "a",
+          "explanation": "A Constituição Federal garante a liberdade de consciência e de crença.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "prompt": "Em uma escola pública, o ensino religioso deve:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ensinar apenas a crença da maioria dos alunos"
+            },
+            {
+              "id": "b",
+              "text": "Punir quem faz perguntas sobre outras crenças"
+            },
+            {
+              "id": "c",
+              "text": "Respeitar todas as crenças e a ausência delas"
+            },
+            {
+              "id": "d",
+              "text": "Proibir qualquer pergunta dos estudantes"
+            }
+          ],
+          "answer": "c",
+          "explanation": "No Brasil, o ensino religioso é não confessional: não faz proselitismo.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Tradições, símbolos e ética",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q06",
+          "prompt": "Sobre tradições e crenças, analise as afirmativas:",
+          "statements": [
+            "Pessoas sem religião também têm direitos e merecem respeito.",
+            "Ritos são práticas repetidas que têm significado simbólico.",
+            "Todas as religiões têm exatamente os mesmos rituais."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas I e II estão corretas"
+            },
+            {
+              "id": "b",
+              "text": "Apenas I e III estão corretas"
+            },
+            {
+              "id": "c",
+              "text": "Apenas II e III estão corretas"
+            },
+            {
+              "id": "d",
+              "text": "I, II e III estão corretas"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Pessoas sem religião também têm direitos, e ritos são práticas simbólicas repetidas. As religiões têm rituais diferentes, por isso III é falsa.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "prompt": "Textos sagrados são:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Normas de trânsito escritas pelas prefeituras"
+            },
+            {
+              "id": "b",
+              "text": "Manuais de uso de aparelhos eletrônicos"
+            },
+            {
+              "id": "c",
+              "text": "Receitas de família passadas entre vizinhos"
+            },
+            {
+              "id": "d",
+              "text": "Escritos importantes para tradições religiosas"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Cada tradição tem textos que guardam seus ensinamentos e histórias.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "prompt": "A tradição oral, em muitas culturas, serve para:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Substituir todos os livros e documentos escritos"
+            },
+            {
+              "id": "b",
+              "text": "Transmitir histórias e crenças aos mais jovens"
+            },
+            {
+              "id": "c",
+              "text": "Proibir novas ideias nas comunidades"
+            },
+            {
+              "id": "d",
+              "text": "Medir o tempo de duração das festas"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Contar histórias é uma forma de manter viva a memória de um povo.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "prompt": "Símbolos religiosos servem para:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Expressar valores e identidade de uma tradição"
+            },
+            {
+              "id": "b",
+              "text": "Marcar o início e o fim das aulas do dia"
+            },
+            {
+              "id": "c",
+              "text": "Indicar a previsão do tempo para a semana"
+            },
+            {
+              "id": "d",
+              "text": "Calcular a distância entre duas cidades do estado"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Os símbolos representam ideias e valores importantes para cada grupo.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q10",
+          "prompt": "Ética é:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Uma lista de proibições feitas pela direção da escola"
+            },
+            {
+              "id": "b",
+              "text": "O estudo das estrelas"
+            },
+            {
+              "id": "c",
+              "text": "Uma técnica de pintura"
+            },
+            {
+              "id": "d",
+              "text": "Refletir sobre o que é justo na convivência"
+            }
+          ],
+          "answer": "d",
+          "explanation": "A ética nos faz pensar em atitudes justas e respeitosas com os outros.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

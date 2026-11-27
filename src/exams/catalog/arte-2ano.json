@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "exemplo-arte-2ano-v1",
+  "title": "Arte: cores, formas e sons",
+  "subject": "Arte",
+  "grade": "2º Ano do Ensino Fundamental I",
+  "description": "Exemplo do 2º ano: conceitos básicos das linguagens da arte (artes visuais, música, teatro e dança).",
+  "sources": {
+    "providedMaterial": [
+      "Nenhum material de escola: exemplo elaborado para demonstração"
+    ],
+    "onlyProvidedMaterial": true,
+    "external": [],
+    "notes": "Exemplo ilustrativo, elaborado a partir de habilidades gerais do currículo nacional (BNCC) para mostrar como um simulado deste ano se estrutura. Não substitui o material da sua escola: confira o conteúdo e o gabarito antes de usar."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Artes visuais",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "prompt": "Quais são as três cores primárias?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Verde, laranja e roxo"
+            },
+            {
+              "id": "b",
+              "text": "Preto, branco e cinza"
+            },
+            {
+              "id": "c",
+              "text": "Rosa, marrom e verde"
+            },
+            {
+              "id": "d",
+              "text": "Vermelho, amarelo e azul"
+            }
+          ],
+          "answer": "d",
+          "explanation": "As cores primárias não nascem de mistura. Com elas formamos as outras cores.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "prompt": "Misturando amarelo e azul, que cor aparece?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Verde"
+            },
+            {
+              "id": "b",
+              "text": "Laranja"
+            },
+            {
+              "id": "c",
+              "text": "Roxo"
+            },
+            {
+              "id": "d",
+              "text": "Marrom"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Amarelo com azul forma o verde.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "prompt": "Qual figura tem três lados?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Círculo"
+            },
+            {
+              "id": "b",
+              "text": "Triângulo"
+            },
+            {
+              "id": "c",
+              "text": "Quadrado"
+            },
+            {
+              "id": "d",
+              "text": "Retângulo"
+            }
+          ],
+          "answer": "b",
+          "explanation": "O triângulo tem três lados e três pontas.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "prompt": "O que é uma colagem?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Obra feita só com sons"
+            },
+            {
+              "id": "b",
+              "text": "Obra feita só com gestos"
+            },
+            {
+              "id": "c",
+              "text": "Obra feita colando pedaços de materiais"
+            },
+            {
+              "id": "d",
+              "text": "Desenho feito só com lápis"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Na colagem, juntamos pedaços de papel, tecido e outros materiais.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "prompt": "Uma escultura é uma obra que tem:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Volume, como uma peça de barro"
+            },
+            {
+              "id": "b",
+              "text": "Apenas uma superfície lisa"
+            },
+            {
+              "id": "c",
+              "text": "Somente sons"
+            },
+            {
+              "id": "d",
+              "text": "Apenas palavras"
+            }
+          ],
+          "answer": "a",
+          "explanation": "A escultura tem volume: podemos contorná-la e olhar de vários lados.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Música, teatro e dança",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q06",
+          "prompt": "Qual destes instrumentos é de percussão?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Flauta"
+            },
+            {
+              "id": "b",
+              "text": "Violino"
+            },
+            {
+              "id": "c",
+              "text": "Trompete"
+            },
+            {
+              "id": "d",
+              "text": "Tambor"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Instrumentos de percussão são tocados batendo ou sacudindo, como o tambor.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "prompt": "O que chamamos de ritmo na música?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A cor do instrumento"
+            },
+            {
+              "id": "b",
+              "text": "A marcação do tempo, como as batidas"
+            },
+            {
+              "id": "c",
+              "text": "A letra escrita no papel"
+            },
+            {
+              "id": "d",
+              "text": "O tamanho da plateia"
+            }
+          ],
+          "answer": "b",
+          "explanation": "O ritmo organiza os sons no tempo, como o bater de palmas.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "prompt": "Quando contamos uma história só com gestos, sem falar, usamos:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Pintura"
+            },
+            {
+              "id": "b",
+              "text": "Escultura"
+            },
+            {
+              "id": "c",
+              "text": "Mímica"
+            },
+            {
+              "id": "d",
+              "text": "Colagem"
+            }
+          ],
+          "answer": "c",
+          "explanation": "A mímica conta histórias com gestos e expressões.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "prompt": "Na dança, podemos usar:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Só a voz"
+            },
+            {
+              "id": "b",
+              "text": "Só instrumentos"
+            },
+            {
+              "id": "c",
+              "text": "Apenas desenhos"
+            },
+            {
+              "id": "d",
+              "text": "O corpo para expressar ideias"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Dançar é se expressar com os movimentos do corpo.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q10",
+          "prompt": "Quem cria obras como pinturas e esculturas é o:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Artista"
+            },
+            {
+              "id": "b",
+              "text": "Fiscal"
+            },
+            {
+              "id": "c",
+              "text": "Carteiro"
+            },
+            {
+              "id": "d",
+              "text": "Motorista"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Artista é a pessoa que cria obras de arte.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

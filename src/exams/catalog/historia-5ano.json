@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "id": "exemplo-historia-5ano-v1",
+  "title": "História: povos, memória e cidadania",
+  "subject": "História",
+  "grade": "5º Ano do Ensino Fundamental I",
+  "description": "Exemplo do 5º ano: patrimônio, fontes históricas e cidadania, com uma questão discursiva.",
+  "sources": {
+    "providedMaterial": [
+      "Nenhum material de escola: exemplo elaborado para demonstração"
+    ],
+    "onlyProvidedMaterial": true,
+    "external": [],
+    "notes": "Exemplo ilustrativo, elaborado a partir de habilidades gerais do currículo nacional (BNCC) para mostrar como um simulado deste ano se estrutura. Não substitui o material da sua escola: confira o conteúdo e o gabarito antes de usar."
+  },
+  "parts": [
+    {
+      "id": "parte-1",
+      "title": "Povos e memória",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q01",
+          "prompt": "Os povos indígenas já viviam no território que hoje é o Brasil:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Muito antes da chegada dos portugueses"
+            },
+            {
+              "id": "b",
+              "text": "Só depois de 1900"
+            },
+            {
+              "id": "c",
+              "text": "Depois da chegada dos imigrantes italianos"
+            },
+            {
+              "id": "d",
+              "text": "Apenas após a Proclamação da República"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Há milhares de anos povos indígenas habitam o território brasileiro.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q02",
+          "prompt": "O patrimônio cultural imaterial inclui:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Somente prédios e casarões muito antigos"
+            },
+            {
+              "id": "b",
+              "text": "Apenas móveis guardados em museus"
+            },
+            {
+              "id": "c",
+              "text": "Festas, danças e saberes tradicionais"
+            },
+            {
+              "id": "d",
+              "text": "Só monumentos de pedra"
+            }
+          ],
+          "answer": "c",
+          "explanation": "O patrimônio imaterial é feito de práticas, saberes e expressões de um povo.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q03",
+          "prompt": "Qual é um exemplo de fonte histórica escrita?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Um utensílio de barro"
+            },
+            {
+              "id": "b",
+              "text": "Uma carta antiga"
+            },
+            {
+              "id": "c",
+              "text": "Uma música tradicional"
+            },
+            {
+              "id": "d",
+              "text": "Uma ferramenta de pedra"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Cartas, jornais e documentos são fontes escritas.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q04",
+          "prompt": "Os museus servem para:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Vender objetos antigos para visitantes"
+            },
+            {
+              "id": "b",
+              "text": "Fabricar objetos novos"
+            },
+            {
+              "id": "c",
+              "text": "Substituir as escolas"
+            },
+            {
+              "id": "d",
+              "text": "Guardar e mostrar a memória de um povo"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Museus preservam objetos e histórias para que todos possam conhecê-los.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q05",
+          "prompt": "Uma linha do tempo serve para:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Medir a distância entre duas cidades do país"
+            },
+            {
+              "id": "b",
+              "text": "Mostrar como será o clima nos próximos dias"
+            },
+            {
+              "id": "c",
+              "text": "Organizar fatos na ordem em que aconteceram"
+            },
+            {
+              "id": "d",
+              "text": "Calcular a área de um terreno"
+            }
+          ],
+          "answer": "c",
+          "explanation": "A linha do tempo coloca os acontecimentos em ordem cronológica.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "parte-2",
+      "title": "Cidadania e diversidade",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "id": "q06",
+          "prompt": "Por que muitas pessoas migram de uma região para outra?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Em busca de trabalho e de melhores condições"
+            },
+            {
+              "id": "b",
+              "text": "Para deixar de usar dinheiro e trocar objetos"
+            },
+            {
+              "id": "c",
+              "text": "Porque os mapas mudaram"
+            },
+            {
+              "id": "d",
+              "text": "Para evitar qualquer convívio social"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Trabalho, moradia, estudo e segurança são motivos comuns de migração.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q07",
+          "prompt": "Exercer a cidadania é:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Fazer só o que se quer, sem pensar nos outros"
+            },
+            {
+              "id": "b",
+              "text": "Conhecer e respeitar direitos e deveres"
+            },
+            {
+              "id": "c",
+              "text": "Ignorar as regras da comunidade"
+            },
+            {
+              "id": "d",
+              "text": "Esperar que outros resolvam tudo"
+            }
+          ],
+          "answer": "b",
+          "explanation": "O cidadão conhece seus direitos, cumpre seus deveres e respeita os outros.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q08",
+          "prompt": "Sobre a diversidade cultural brasileira, analise as afirmativas:",
+          "statements": [
+            "O Brasil tem influências indígenas, africanas e europeias.",
+            "Todas as culturas devem ser respeitadas.",
+            "Só uma cultura é válida e as outras devem ser esquecidas."
+          ],
+          "options": [
+            {
+              "id": "a",
+              "text": "Apenas II e III estão corretas"
+            },
+            {
+              "id": "b",
+              "text": "Apenas I e III estão corretas"
+            },
+            {
+              "id": "c",
+              "text": "I, II e III estão corretas"
+            },
+            {
+              "id": "d",
+              "text": "Apenas I e II estão corretas"
+            }
+          ],
+          "answer": "d",
+          "explanation": "O Brasil recebeu influências de vários povos e todas as culturas merecem respeito. A afirmativa III é falsa.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "id": "q09",
+          "prompt": "A tradição oral é:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Um texto copiado e guardado em livros"
+            },
+            {
+              "id": "b",
+              "text": "Uma pintura exposta em museu"
+            },
+            {
+              "id": "c",
+              "text": "Um conjunto de leis escritas pelo governo federal"
+            },
+            {
+              "id": "d",
+              "text": "Saberes passados de geração em geração pela fala"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Histórias, cantigas e saberes são transmitidos falando e ouvindo.",
+          "points": 1
+        },
+        {
+          "type": "open",
+          "id": "q10",
+          "title": "Patrimônio e memória",
+          "prompt": "Escolha um patrimônio (material ou imaterial) da sua cidade ou do Brasil e explique por que ele deve ser preservado.",
+          "expectedAnswer": "Resposta possível: o Carnaval é um patrimônio imaterial porque reúne música, dança e fantasias passadas de geração em geração. Preservá-lo mantém viva a memória e a identidade de um povo, e permite que as novas gerações conheçam suas origens.",
+          "keyConcepts": [
+            "identifica um patrimônio",
+            "diz se é material ou imaterial",
+            "explica a importância (memória e identidade)",
+            "cita uma atitude de preservação"
+          ],
+          "criteria": [
+            "Escolhe e nomeia um patrimônio.",
+            "Classifica corretamente como material ou imaterial.",
+            "Explica por que é importante preservá-lo.",
+            "Usa as próprias palavras, em frases completas."
+          ],
+          "maxPoints": 3
+        }
+      ]
+    }
+  ]
+}
