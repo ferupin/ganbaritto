@@ -24,7 +24,7 @@ jobs:
       - run: npm run typecheck:e2e
       - run: npx vitest run
       - run: npm run build
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: site-estatico
           path: out
@@ -47,7 +47,7 @@ jobs:
           path: out
       - run: npx playwright install --with-deps chromium
       - run: npm run e2e
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: e2e-relatorio
