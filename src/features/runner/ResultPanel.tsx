@@ -38,7 +38,7 @@ export function ResultPanel({ exam }: { exam: Exam }) {
       )}
       <div className="mt-3 grid gap-3 sm:grid-cols-[repeat(auto-fit,minmax(220px,1fr))]">
         <div className="rounded-xl border border-line bg-paper px-3.5 py-3">
-          <span className="badge">{t("runner.autoBadge")}</span>
+          <span className="badge badge-ai">{t("runner.autoBadge")}</span>
           <p>
             {t("runner.objectivePoints", {
               earned: result.objective.earned,

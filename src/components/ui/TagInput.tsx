@@ -88,12 +88,12 @@ export function TagInput({
           {tags.map((tag) => (
             <li
               key={tag}
-              className="inline-flex max-w-full items-center gap-0.5 rounded-full border border-accent/40 bg-accent-soft py-0.5 pl-3 pr-0.5 text-sm font-semibold text-accent-text"
+              className="chip-in inline-flex max-w-full items-center gap-0.5 rounded-full border border-plum-line bg-plum-soft py-0.5 pl-3 pr-0.5 text-sm font-bold text-plum"
             >
               <span className="min-w-0 break-words">{tag}</span>
               <button
                 type="button"
-                className="grid size-7 flex-none place-items-center rounded-full hover:bg-accent/15"
+                className="grid size-7 flex-none place-items-center rounded-full hover:bg-plum/15"
                 aria-label={removeLabel(tag)}
                 onClick={() => onChange(removeTag(tags, tag))}
               >

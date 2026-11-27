@@ -21,6 +21,22 @@ Tom de voz: encorajador, claro e direto. "Cada tentativa conta." Sem cobrar perf
 | `ok`, `bad` (+`-soft`, `-line`) | acerto/salvo/fácil; erro/inválido/difícil |
 | `brand-coral` | coral da marca (logotipo). Não é token de interface |
 
+**Etiquetas (`.badge`)** têm preenchimento, borda e texto da mesma família: `badge` (coral, disciplina e destaques), `badge-ai` (azul: ano, correção automática, informação), `badge-plum` (ameixa: assuntos digitados), `badge-warm` (âmbar: pendente), `badge-ok` (acerto) e `badge-bad` (erro). Tokens: `*-soft` (fundo), `*-line` (borda) e o próprio token como texto.
+**Botões:** `btn` usa `btn` e `btn-line` (fundo e borda mais nítidos que `paper-2`).
+**Foco de campo (`.input`)**: borda em `accent-text` e halo de 3 px em coral a 30%, sem anel; o outline fica transparente para o modo de alto contraste. Botões e links mantêm o anel `ring`.
+
+## Folha creme no tema escuro
+`.sheet-cream` (aplicada à folha da prova) redefine os tokens para a paleta de papel, só no tema escuro (`:root[data-theme="dark"] .sheet-cream` em `globals.css`). Tudo que está dentro herda: questões, alternativas, selos, resultado. Para um elemento dentro da folha voltar ao escuro, use a classe `on-dark` (a barra de revisão usa). O papel noturno é um pouco menos brilhante que o do tema claro (`#F3EAD6` contra `#FAF7F1`). O teste `contrast.test.ts` confere a folha creme à parte. `.card-cream` aplica a mesma paleta a um cartão isolado (os cartões de banco da Biblioteca). Desde a 0.5.6 todo `.sheet` fica creme no escuro (só em `@media screen`, para não afetar a impressão). Regra de ouro: **papel = creme; o que flutua sobre o papel (popovers, barras fixas, toasts, barra de revisão) = escuro via `on-dark`**.
+
+### Botões
+- `.btn-primary`: a ação principal da área (uma por área). Coral cheio, base mais escura que afunda ao clicar.
+- `.btn`: secundária. Contorno de 2px (`btn-line`), hover com fundo `accent-soft`.
+- `.btn-danger`: contorno e texto `bad`, hover `bad-soft`.
+- `disabled`: tracejado, fundo `paper-2`, texto `muted`, sem sombra. Não use `opacity` para desabilitar.
+
+## Textura do fundo
+`body::before` desenha um grão de papel (ruído SVG embutido, 180 px, fixo) a 16% de opacidade no claro e 11% no escuro (invertido). Só a mesa tem textura; folhas e cartões ficam lisos para o contraste. Desligada em `prefers-contrast: more` e na impressão. Para trocar ou remover, edite esse bloco em `globals.css`.
+
 Regras: coral nunca é texto pequeno nem borda de estado sobre fundo claro; gergelim e Matcha nunca são texto; cor nunca é o único sinal (ícone e palavra acompanham).
 `src/design/contrast.test.ts` lê os valores reais dos dois temas e falha se algum par ficar abaixo de AA (4,5:1 para texto, 3:1 para bordas e foco).
 

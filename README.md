@@ -5,7 +5,7 @@
 
 [![CI](https://github.com/ferupin/ganbaritto/actions/workflows/ci.yml/badge.svg)](https://github.com/ferupin/ganbaritto/actions/workflows/ci.yml)
 [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-263b50.svg)](LICENSE)
-![Versão](https://img.shields.io/badge/vers%C3%A3o-0.5.3-ef8c69.svg)
+![Versão](https://img.shields.io/badge/vers%C3%A3o-0.5.6-ef8c69.svg)
 
 **Seu material de estudo, a partir da sua realidade.** O Ganbaritto ajuda pais e alunos a montar simulados de apoio com qualquer IA e a praticar com eles, sem criar conta e sem servidor. Você pede para a IA criar um banco de questões em um arquivo `.json`, importa aqui, resolve, corrige e acompanha a evolução. Tudo fica no seu navegador.
 
@@ -56,12 +56,12 @@ O site é 100% estático (`output: "export"`): a pasta `out/` serve em qualquer 
 O app **não envia** suas respostas nem seus bancos para servidor algum. Os dados ficam no armazenamento do seu navegador; use `/dados` para fazer backup. Limpar os dados do navegador apaga tudo, por isso o app lembra de fazer backup. A hospedagem (por exemplo, a Vercel) pode registrar acessos, como qualquer site.
 
 ## Estado do projeto
-Versão atual: **0.5.3** (histórico em `docs/CHANGELOG.md` e na página `/versoes` do app).
+Versão atual: **0.5.6** (histórico em `docs/CHANGELOG.md` e na página `/versoes` do app).
 
 - [x] 0.1 a 0.3: importar, resolver, corrigir, histórico, criar com IA, catálogo de exemplos do 1º ao 9º ano
 - [x] 0.4: fórmulas (KaTeX), revisão das questões erradas, botão de topo
 - [x] 0.5: backup, pré-visualização, impressão, testes de ponta a ponta e CI
-- [x] 0.5.3: identidade visual Ganbaritto
+- [x] 0.5.3 a 0.5.6: identidade visual Ganbaritto, folha e cartões cremes no tema escuro, etiquetas por cor, textura de fundo
 - [ ] Próximas fases: ciclo de aprender (refazer só as que errei), conteúdo além do texto, uso offline instalável. Veja `docs/ROADMAP.md`.
 
 Não verificado ainda: impressão em papel real, uso offline, leitura com leitor de tela (há um roteiro em `docs/a11y-checklist.md`) e se o nome está livre (INPI, WIPO, domínios).

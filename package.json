@@ -1,6 +1,6 @@
 {
   "name": "ganbaritto",
-  "version": "0.5.3",
+  "version": "0.5.6",
   "private": true,
   "description": "Plataforma de simulados escolares a partir de bancos de questões em JSON. Sem backend, sem banco de dados.",
   "scripts": {

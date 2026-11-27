@@ -17,7 +17,9 @@ function tokens(selector: RegExp): Record<string, string> {
   );
 }
 const light = tokens(/:root,\s*:root\[data-theme="light"\]\s*\{([^}]*)\}/);
-const dark = tokens(/:root\[data-theme="dark"\]\s*\{([^}]*)\}/);
+const dark = tokens(/:root\[data-theme="dark"\],\s*:root\[data-theme="dark"\] :is\(\.sheet, \.sheet-cream, \.card-cream\) \.on-dark\s*\{([^}]*)\}/);
+// Folha creme dentro do tema escuro: herda do escuro só o que não redefine (a mesa).
+const cream = { ...dark, ...tokens(/:root\[data-theme="dark"\] \.sheet-cream,\s*:root\[data-theme="dark"\] \.card-cream\s*\{([^}]*)\}/) };
 
 function lum(hex: string) {
   const c = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16) / 255);
@@ -48,6 +50,18 @@ const PAIRS: [string, string, number][] = [
   ["ok", "paper", 4.5],
   ["ok", "paper-2", 4.5],
   ["bad", "paper-2", 4.5],
+  ["accent-text", "accent-soft", 4.5],
+  ["ai", "ai-soft", 4.5],
+  ["plum", "plum-soft", 4.5],
+  ["warm", "warm-soft", 4.5],
+  ["ok", "ok-soft", 4.5],
+  ["bad", "bad-soft", 4.5],
+  ["ai", "paper", 4.5],
+  ["plum", "paper", 4.5],
+  ["warm", "paper", 4.5],
+  ["ink", "btn", 4.5],
+  ["bad", "btn", 4.5],
+  ["btn-line", "paper", 3],
   ["ring", "paper", 3],
   ["ring", "desk", 3],
   ["ring", "paper-2", 3],
@@ -77,5 +91,17 @@ describe.each([
   });
   it.each(PAIRS)("%s sobre %s ≥ %s", (a, b, min) => {
     expect(ratio(theme[a], theme[b])).toBeGreaterThanOrEqual(min);
+  });
+});
+
+describe("folha creme no tema escuro", () => {
+  const pairs = PAIRS.filter(([a, b]) => a !== "desk" && b !== "desk");
+  it("é de fato clara (não fica preta nem escura)", () => {
+    expect(lum(cream.paper)).toBeGreaterThan(0.6);
+    expect(lum(cream.paper)).toBeLessThan(lum(light.paper)); // um pouco menos brilhante que o papel do tema claro
+  });
+  it.each(pairs)("%s sobre %s ≥ %s", (a, b, min) => {
+    expect(cream[a], a).toBeDefined();
+    expect(ratio(cream[a], cream[b])).toBeGreaterThanOrEqual(min);
   });
 });

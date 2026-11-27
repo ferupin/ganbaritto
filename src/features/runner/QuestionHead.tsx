@@ -16,7 +16,7 @@ export function QuestionHead({
       {title && <span className="font-bold">{title}</span>}
       <span className="ml-auto print:hidden">
         {kind === "auto" ? (
-          <span className="badge">{t("runner.autoBadge")}</span>
+          <span className="badge badge-ai">{t("runner.autoBadge")}</span>
         ) : (
           <span className="badge badge-warm">{t("runner.assistedBadge")}</span>
         )}

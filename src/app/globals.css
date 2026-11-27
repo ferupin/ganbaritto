@@ -24,24 +24,34 @@
   --accent: #ef8c69;
   --accent-ink: #263b50;
   --accent-text: #a63d1a;
-  --accent-soft: #fbe3d9;
+  --accent-soft: #fbd9ca;
   --ring: #263b50;
   --hl: #e8bd54;
   --hl-ink: #263b50;
-  --warm: #7a5a00;
-  --warm-soft: #f8ebc4;
-  --warm-line: #d9bc62;
-  --ok: #456b55;
-  --ok-soft: #e3ede5;
-  --ok-line: #91a99a;
-  --bad: #b3261e;
-  --bad-soft: #f8e0dc;
-  --bad-line: #d9988f;
+  --warm: #6b4e00;
+  --warm-soft: #f6e3a3;
+  --warm-line: #cfae45;
+  --ok: #2f5c45;
+  --ok-soft: #d6e8dc;
+  --ok-line: #7fa38d;
+  --bad: #a8231b;
+  --bad-soft: #f6d8d2;
+  --bad-line: #d2857b;
   --brand-coral: #e8754f;
   --shadow: 0 1px 2px rgb(38 59 80 / 0.08), 0 10px 30px rgb(38 59 80 / 0.1);
+  --accent-line: #e39272;
+  --ai: #1f4a8a;
+  --ai-soft: #d9e5f7;
+  --ai-line: #7f9fd6;
+  --plum: #6a2f73;
+  --plum-soft: #ecdcef;
+  --plum-line: #b386bc;
+  --btn: #ffffff;
+  --btn-line: #8a8374;
 }
 
-:root[data-theme="dark"] {
+:root[data-theme="dark"],
+:root[data-theme="dark"] :is(.sheet, .sheet-cream, .card-cream) .on-dark {
   color-scheme: dark;
   --desk: #172330;
   --paper: #223344;
@@ -54,21 +64,77 @@
   --accent: #e8754f;
   --accent-ink: #172330;
   --accent-text: #f6a383;
-  --accent-soft: #3f3a44;
+  --accent-soft: #5a3b38;
   --ring: #f4ebdd;
   --hl: #e8bd54;
   --hl-ink: #172330;
-  --warm: #e8bd54;
-  --warm-soft: #3e3b2e;
-  --warm-line: #7a6a3a;
-  --ok: #a8c4ae;
-  --ok-soft: #27423a;
-  --ok-line: #4f7a66;
-  --bad: #f29a8f;
-  --bad-soft: #4a2f35;
-  --bad-line: #8a4e52;
+  --warm: #f0cf6f;
+  --warm-soft: #52461f;
+  --warm-line: #9a8338;
+  --ok: #b5d6bd;
+  --ok-soft: #2b5242;
+  --ok-line: #5c8f76;
+  --bad: #f8b8b0;
+  --bad-soft: #5a3038;
+  --bad-line: #a8585f;
   --brand-coral: #e8754f;
   --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 10px 30px rgb(0 0 0 / 0.35);
+  --accent-line: #c9795a;
+  --ai: #a9c6f5;
+  --ai-soft: #2a4670;
+  --ai-line: #5f86c4;
+  --plum: #e3b9ec;
+  --plum-soft: #4b2f58;
+  --plum-line: #9a6bad;
+  --btn: #3a526b;
+  --btn-line: #9fb2c4;
+}
+
+/* Folha creme no tema escuro: a folha da prova e de tudo que está dentro dela
+   (cartões, alternativas, selos) usa a paleta de papel, para leitura noturna
+   mais confortável. O que fica FORA da folha (cabeçalho, mesa, barra de revisão,
+   botão de topo, avisos) continua escuro, em contraste. Tom um pouco mais quente
+   e menos brilhante que o papel do tema claro. */
+@media screen {
+  :root[data-theme="dark"] .sheet,
+  :root[data-theme="dark"] .sheet-cream,
+  :root[data-theme="dark"] .card-cream {
+    color-scheme: light;
+    color: var(--ink);
+    --paper: #f3ead6;
+    --paper-2: #ebe0c9;
+    --field: #fbf7ec;
+    --ink: #263b50;
+    --muted: #4f6070;
+    --line: #d8ccb2;
+    --line-strong: #857c68;
+    --accent: #ef8c69;
+    --accent-ink: #263b50;
+    --accent-text: #a63d1a;
+    --accent-soft: #fbd5c4;
+    --accent-line: #e39272;
+    --ring: #263b50;
+    --hl: #e8bd54;
+    --hl-ink: #263b50;
+    --ai: #1f4a8a;
+    --ai-soft: #d5e2f5;
+    --ai-line: #7f9fd6;
+    --plum: #6a2f73;
+    --plum-soft: #e9d6ed;
+    --plum-line: #b386bc;
+    --warm: #6b4e00;
+    --warm-soft: #f3df9c;
+    --warm-line: #cfae45;
+    --ok: #2f5c45;
+    --ok-soft: #d3e6d9;
+    --ok-line: #7fa38d;
+    --bad: #a8231b;
+    --bad-soft: #f4d5cf;
+    --bad-line: #d2857b;
+    --btn: #fffaf0;
+    --btn-line: #857c68;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 14px 36px rgb(0 0 0 / 0.4);
+  }
 }
 
 @theme inline {
@@ -83,6 +149,15 @@
   --color-accent-ink: var(--accent-ink);
   --color-accent-soft: var(--accent-soft);
   --color-accent-text: var(--accent-text);
+  --color-accent-line: var(--accent-line);
+  --color-ai: var(--ai);
+  --color-ai-soft: var(--ai-soft);
+  --color-ai-line: var(--ai-line);
+  --color-plum: var(--plum);
+  --color-plum-soft: var(--plum-soft);
+  --color-plum-line: var(--plum-line);
+  --color-btn: var(--btn);
+  --color-btn-line: var(--btn-line);
   --color-ring: var(--ring);
   --color-field: var(--field);
   --color-hl: var(--hl);
@@ -111,6 +186,29 @@
   body {
     @apply bg-desk font-sans text-[17px] leading-relaxed text-ink antialiased;
     transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  /* Textura do fundo geral: grão de papel muito fino, só na mesa (fora das folhas e
+     dos cartões, que ficam lisos). É um ruído SVG embutido, sem arquivo, fixo na
+     tela e sem receber cliques. A intensidade é baixa de propósito: a mesa ganha
+     profundidade e as folhas ganham contraste, sem competir com o texto. */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.15 0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 180px 180px;
+    opacity: 0.16;
+  }
+  :root[data-theme="dark"] body::before {
+    filter: invert(1);
+    opacity: 0.11;
+  }
+  @media (prefers-contrast: more) {
+    body::before {
+      display: none;
+    }
   }
   /* Link sempre sublinhado: a cor sozinha não basta para distingui-lo do texto. */
   a {
@@ -148,14 +246,18 @@
     @apply mb-3 mt-7 text-xl font-bold first-of-type:mt-0;
   }
 
+  /* Hierarquia: .btn-primary = a ação principal da área (coral cheio, com "degrau"
+     embaixo que afunda ao clicar); .btn = ação secundária (contorno firme, fundo
+     do botão, esquenta para o tom do destaque ao passar); .btn-danger = destrutiva.
+     Desabilitado fica claramente "apagado" (tracejado, sem sombra), sem sumir. */
   .btn {
-    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-line-strong bg-paper-2 px-4 py-2 text-[15px] font-bold text-ink no-underline transition-[filter,border-color,transform] duration-150 hover:border-ink active:translate-y-px disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:border-line-strong;
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border-2 border-btn-line bg-btn px-4 py-2 text-[15px] font-bold text-ink no-underline shadow-[0_2px_0_color-mix(in_srgb,var(--btn-line)_45%,transparent)] transition-[background-color,border-color,transform,box-shadow] duration-150 hover:border-ink hover:bg-accent-soft active:translate-y-0.5 active:shadow-none disabled:cursor-not-allowed disabled:border-dashed disabled:border-line-strong disabled:bg-paper-2 disabled:text-muted disabled:shadow-none disabled:hover:border-line-strong disabled:hover:bg-paper-2 disabled:active:translate-y-0;
   }
   .btn-primary {
-    @apply border-accent bg-accent text-accent-ink hover:brightness-110;
+    @apply border-accent bg-accent text-accent-ink shadow-[0_3px_0_color-mix(in_srgb,var(--accent-text)_80%,black)] hover:border-accent hover:bg-accent hover:brightness-110 active:shadow-none;
   }
   .btn-danger {
-    @apply text-bad hover:border-bad;
+    @apply border-bad text-bad hover:border-bad hover:bg-bad-soft;
   }
   .btn-sm {
     @apply min-h-9 px-3 py-1.5 text-sm;
@@ -164,38 +266,80 @@
     @apply min-w-11 px-2;
   }
 
+  /* Selos e etiquetas: preenchimento com matiz definido, borda da mesma família e
+     texto escuro (ou claro, no tema escuro). Cada matiz tem um papel:
+       coral = disciplina e destaques da marca; azul (ai) = informação, ano e correção automática;
+       ameixa = assuntos digitados pela pessoa; âmbar = pendente e atenção; verde = acerto;
+       cereja = erro. */
   .badge {
-    @apply inline-flex items-center gap-1 whitespace-nowrap rounded-full border border-transparent bg-accent-soft px-2.5 py-0.5 text-xs font-bold text-accent-text;
+    @apply inline-flex items-center gap-1 whitespace-nowrap rounded-full border border-accent-line bg-accent-soft px-2.5 py-0.5 text-xs font-bold text-accent-text;
+  }
+  .badge-ai {
+    @apply border-ai-line bg-ai-soft text-ai;
+  }
+  .badge-plum {
+    @apply border-plum-line bg-plum-soft text-plum;
   }
   .badge-warm {
-    @apply bg-warm-soft text-warm;
+    @apply border-warm-line bg-warm-soft text-warm;
   }
   .badge-ok {
-    @apply bg-ok-soft text-ok;
+    @apply border-ok-line bg-ok-soft text-ok;
   }
   .badge-bad {
-    @apply bg-bad-soft text-bad;
+    @apply border-bad-line bg-bad-soft text-bad;
   }
   .badge-muted {
-    @apply border-line bg-paper-2 text-muted;
+    @apply border-line-strong bg-paper-2 text-ink;
+  }
+  /* Etiqueta adicionada pela pessoa (assuntos): aparece com um pequeno "pop". */
+  .chip-in {
+    animation: chip-in 0.28s cubic-bezier(0.2, 0.8, 0.3, 1.2) both;
+  }
+  @keyframes chip-in {
+    from {
+      opacity: 0;
+      transform: scale(0.85);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
   }
 
   .callout {
-    @apply my-4 rounded-md border-l-4 border-accent bg-paper-2 px-4 py-3 text-[15px];
+    @apply my-4 rounded-md border border-l-4 border-accent-line border-l-accent bg-accent-soft/60 px-4 py-3 text-[15px];
   }
   .callout-warn {
-    @apply border-warm;
+    @apply border-warm-line border-l-warm bg-warm-soft/70;
   }
   .callout-ok {
-    @apply border-ok bg-ok-soft;
+    @apply border-ok-line border-l-ok bg-ok-soft;
   }
   .callout-bad {
-    @apply border-bad bg-bad-soft;
+    @apply border-bad-line border-l-bad bg-bad-soft;
   }
 
   /* Campos de texto. aria-invalid vem do componente Field. */
   .input {
-    @apply w-full rounded-xl border border-line-strong bg-paper-2 px-3.5 py-3 text-ink placeholder:text-muted/70 disabled:opacity-85;
+    @apply w-full rounded-xl border border-line-strong bg-paper-2 px-3.5 py-3 text-ink transition-[border-color,box-shadow] duration-150 placeholder:text-muted/70 disabled:opacity-85;
+  }
+  /* Foco suave: borda em coral escuro e um halo translúcido, sem o anel grosso.
+     O outline fica transparente para continuar visível no modo de alto contraste. */
+  .input:focus-visible {
+    outline: 2px solid transparent;
+    outline-offset: 0;
+    border-color: var(--accent-text);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 30%, transparent);
+  }
+  .input:not(:placeholder-shown):not([aria-invalid="true"]):focus-visible {
+    box-shadow:
+      inset 3px 0 0 var(--accent),
+      0 0 0 3px color-mix(in srgb, var(--accent) 30%, transparent);
+  }
+  .input[aria-invalid="true"]:focus-visible {
+    border-color: var(--bad);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--bad) 28%, transparent);
   }
   .input[aria-invalid="true"] {
     @apply border-2 border-bad bg-bad-soft/40;
@@ -304,7 +448,7 @@
 
   /* Revisão pós-correção e voltar ao topo */
   .review-nav {
-    @apply fixed bottom-4 left-4 right-20 z-20 flex items-center gap-2 rounded-2xl border border-line-strong bg-paper px-3 py-2 shadow-sheet sm:left-1/2 sm:right-auto sm:-translate-x-1/2 print:hidden;
+    @apply fixed bottom-4 left-4 right-20 z-20 flex items-center gap-2 rounded-2xl border border-line-strong bg-paper px-3 py-2 text-ink shadow-sheet sm:left-1/2 sm:right-auto sm:-translate-x-1/2 print:hidden;
   }
   /* Destaque amigável: um brilho suave que entra rápido e se dissolve devagar. */
   .question[data-flash="on"] {
@@ -435,6 +579,9 @@ html[data-modal-open] main {
   margin: 14mm;
 }
 @media print {
+  body::before {
+    display: none;
+  }
   :root,
   :root[data-theme="light"],
   :root[data-theme="dark"] {

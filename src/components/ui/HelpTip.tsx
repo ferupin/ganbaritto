@@ -52,7 +52,7 @@ export function HelpTip({ label, children }: { label: string; children: ReactNod
         <div
           id={id}
           role="tooltip"
-          className="toast-in absolute inset-x-0 top-full z-20 mt-1 rounded-xl border border-line-strong bg-paper p-3.5 text-sm leading-relaxed text-ink shadow-sheet sm:right-auto sm:w-[22rem]"
+          className="toast-in on-dark absolute inset-x-0 top-full z-20 mt-1 rounded-xl border border-line-strong bg-paper p-3.5 text-sm leading-relaxed text-ink shadow-sheet sm:right-auto sm:w-[22rem]"
         >
           {children}
         </div>

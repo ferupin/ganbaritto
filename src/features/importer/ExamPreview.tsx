@@ -78,7 +78,7 @@ function PreviewQuestion({ q, number }: { q: Question; number: number }) {
       <div className="mb-1.5 flex items-baseline gap-2.5">
         <span className="min-w-7 font-extrabold text-accent-text">{number}.</span>
         {q.title && <span className="font-bold">{q.title}</span>}
-        <span className={`badge ml-auto ${q.type === "open" ? "badge-warm" : ""}`}>
+        <span className={`badge ml-auto ${q.type === "open" ? "badge-warm" : "badge-ai"}`}>
           {t(q.type === "open" ? "runner.assistedBadge" : "runner.autoBadge")}
         </span>
       </div>

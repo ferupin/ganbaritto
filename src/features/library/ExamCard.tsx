@@ -35,10 +35,10 @@ export const ExamCard = memo(function ExamCard({
   const href = `/prova?id=${encodeURIComponent(exam.id)}`;
 
   return (
-    <div className="card">
+    <div className="card card-cream">
       <div className="flex flex-wrap items-center gap-2">
         <span className="badge">{exam.subject}</span>
-        {exam.grade && <span className="badge badge-muted">{exam.grade}</span>}
+        {exam.grade && <span className="badge badge-ai">{exam.grade}</span>}
       </div>
       <h3 className="text-lg font-bold">{exam.title}</h3>
       <p className="card-meta">

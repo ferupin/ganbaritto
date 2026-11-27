@@ -61,7 +61,7 @@ export function ReviewNav({ exam }: { exam: Exam }) {
 
   return (
     <div
-      className="review-nav"
+      className="review-nav on-dark"
       role="group"
       aria-label={t("review.label")}
     >

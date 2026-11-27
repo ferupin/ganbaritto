@@ -284,7 +284,7 @@ export function CreatorPage() {
         onFocus={(e) => e.currentTarget.select()}
       />
 
-      <div className="mt-4 flex flex-wrap items-center gap-2.5 border-t border-line py-3 sm:sticky sm:bottom-0 sm:z-[4] sm:bg-paper print:hidden">
+      <div className="mt-4 flex flex-wrap items-center gap-2.5 border border-line px-3 py-3 on-dark rounded-xl bg-paper text-ink sm:sticky sm:bottom-0 sm:z-[4] print:hidden">
         <CopyButton
           text={prompt}
           label={t("creator.copy")}

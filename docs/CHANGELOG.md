@@ -3,6 +3,46 @@
 Também aparece no app, em `/versoes`. A fonte dos dados é `src/changelog/entries.ts`; um teste confere que as duas listas batem.
 Versões seguem o padrão X.Y.Z: função nova aumenta o Y, correção aumenta o Z, quebra de compatibilidade aumenta o X.
 
+## 0.5.6 (2026-11-27)
+
+Todas as folhas em creme no tema escuro, janelinhas e barras flutuantes escuras e botões com hierarquia clara.
+
+**Mudanças**
+- No tema escuro, todas as folhas (Criar, Importar, Dados, Versões e a prova) ficam em creme. O que flutua por cima, como a barra de ações do Criar e as janelinhas de ajuda, fica escuro, em contraste com o papel.
+- Botões com função clara: o principal é coral cheio com uma base que afunda ao clicar; os demais têm contorno firme e ficam coral-claro ao passar o mouse; o de perigo tem contorno vermelho.
+- Botão desabilitado agora parece desabilitado de verdade (borda tracejada, fundo apagado), sem ficar ilegível.
+
+**Por dentro**
+- Cores do creme valem para qualquer .sheet só em tela (@media screen), sem afetar a impressão. Novo teste de navegador para as folhas e a hierarquia dos botões.
+
+## 0.5.5 (2026-11-27)
+
+Cartões dos bancos em creme no tema escuro, textura sutil no fundo e botões com contraste próprio.
+
+**Mudanças**
+- No tema escuro, os cartões dos bancos (Meus bancos e Exemplos) também ficam em creme, como a folha da prova. A mesa continua escura.
+- O fundo geral ganhou uma textura de grão de papel muito fina, só na mesa. As folhas e os cartões continuam lisos. Ela some no modo de alto contraste e na impressão.
+- O botão principal ganhou uma base mais marcada, para parecer clicável em qualquer fundo.
+
+**Por dentro**
+- Classe `card-cream` (mesma paleta da folha creme) e testes de navegador para a textura e para os cartões.
+
+## 0.5.4 (2026-11-27)
+
+Leitura noturna mais confortável, etiquetas e botões mais vivos, foco suave nos campos e histórico em cartões.
+
+**Mudanças**
+- No tema escuro, a folha da prova e tudo dentro dela (questões, alternativas, resultado) ficam em tom creme, mais agradável para ler à noite. O entorno, o cabeçalho e a barra de revisão continuam escuros.
+- Etiquetas com cor definida e borda: coral para disciplina, azul para ano e correção automática, ameixa para os assuntos que você digita, âmbar para pendente, verde para acerto e cereja para erro. Ficaram mais presentes, sem estourar o contraste.
+- Botões com fundo e borda mais nítidos nos dois temas, e avisos (notas) com fundo colorido em vez de cinza.
+- O foco dos campos agora é uma borda coral com um halo suave, no lugar do anel grosso.
+- O histórico de versões agora é uma lista de cartões: só o mais recente começa aberto, e cada cartão mostra o resumo e a quantidade de mudanças antes de abrir.
+- Os assuntos adicionados aparecem com um pequeno movimento, para você ver o que acabou de entrar.
+
+**Por dentro**
+- Novos tokens de cor (`accent-line`, `ai`, `plum`, `btn`, `btn-line` e suas variações) e uma escala creme para a folha no tema escuro (classe `sheet-cream`), tudo coberto pelo teste de contraste.
+- Testes de navegador novos para a folha creme, o foco e os cartões do histórico.
+
 ## 0.5.3 (2026-11-26)
 
 Identidade visual Ganbaritto: nome, logotipo, cores e fontes novos nos dois temas.

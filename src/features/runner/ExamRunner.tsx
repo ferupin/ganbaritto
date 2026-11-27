@@ -127,7 +127,7 @@ function Runner({ exam }: { exam: Exam }) {
   return (
     <>
     {printMode && <PrintView exam={exam} mode={printMode} />}
-    <article className={`sheet ${printMode ? "print:hidden" : ""}`}>
+    <article className={`sheet sheet-cream ${printMode ? "print:hidden" : ""}`}>
       <ProgressBar exam={exam} />
 
       <header className="mb-5 rounded border-2 border-ink px-4 py-4 sm:px-5">
